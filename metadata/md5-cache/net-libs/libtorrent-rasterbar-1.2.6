@@ -1,0 +1,17 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile configure install prepare
+DEPEND=dev-libs/boost:=[threads] virtual/libiconv examples? ( !net-p2p/mldonkey ) python? ( python_targets_python3_8? ( >=dev-lang/python-3.8.13:3.8[threads(+)] ) dev-libs/boost:=[python,python_targets_python3_8(-)?] ) ssl? ( !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:= ) ) sys-devel/libtool
+DESCRIPTION=C++ BitTorrent implementation focusing on efficiency and scalability
+EAPI=7
+HOMEPAGE=https://libtorrent.org https://github.com/arvidn/libtorrent
+INHERIT=autotools distutils-r1
+IUSE=debug +dht doc examples libressl python +ssl static-libs test python_targets_python3_8
+KEYWORDS=amd64 ~arm ~ppc ~ppc64 ~sparc x86
+LICENSE=BSD
+RDEPEND=dev-libs/boost:=[threads] virtual/libiconv examples? ( !net-p2p/mldonkey ) python? ( python_targets_python3_8? ( >=dev-lang/python-3.8.13:3.8[threads(+)] ) dev-libs/boost:=[python,python_targets_python3_8(-)?] ) ssl? ( !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:= ) )
+REQUIRED_USE=python? ( || ( python_targets_python3_8 ) )
+RESTRICT=!test? ( test )
+SLOT=0/10
+SRC_URI=https://github.com/arvidn/libtorrent/archive/libtorrent-1_2_6.tar.gz -> libtorrent-rasterbar-1.2.6.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3	multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	python-r1	7b65c41111cd80a4d4a0921e8d4a310c	distutils-r1	e3b0f72d558eb613ff83262d22cbf887
+_md5_=83eb6254ba8cbc91535588481cd05b29

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst postrm preinst prepare unpack
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=WebStorm is an IDE for complex client-/server-side JavaScript development
+EAPI=7
+HOMEPAGE=https://www.jetbrains.com/webstorm
+INHERIT=jetbrains-intellij
+IUSE=system-jre
+KEYWORDS=~amd64
+LICENSE=IDEA || ( IDEA_Academic IDEA_Classroom IDEA_OpenSource IDEA_Personal )
+RDEPEND=system-jre? ( >=virtual/jre-1.8 )
+RESTRICT=mirror strip test
+SLOT=2019.2
+SRC_URI=https://download.jetbrains.com/webstorm/WebStorm-2019.2.4.tar.gz
+_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857	desktop	22952d8f27cac191d75529d4c38e6bfa	estack	055c42df72f76a4f45ec92b35e83cd56	jetbrains-intellij	c9335417d17169c85923bb1c86f3ada0
+_md5_=4c74c38531f46ae95cdcabe43d2beb95

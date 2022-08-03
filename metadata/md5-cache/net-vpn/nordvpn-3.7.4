@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prepare unpack
+DESCRIPTION=NordVPN CLI tool for Linux
+EAPI=7
+HOMEPAGE=https://nordvpn.com
+INHERIT=unpacker
+IUSE=nordlynx systemd
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=NordVPN
+RDEPEND=dev-libs/libxslt[crypt] net-firewall/iptables sys-apps/iproute2[iptables] sys-apps/net-tools sys-process/procps nordlynx? ( net-vpn/wireguard-modules net-vpn/wireguard-tools ) systemd? ( sys-apps/systemd )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=amd64? ( https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.7.4_amd64.deb ) arm? ( https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.7.4_armhf.deb ) arm64? ( https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.7.4_arm64.deb ) x86? ( https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.7.4_i386.deb )
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	697382d119fd3d195f110b7979184285
+_md5_=f71e64cf84e2938dff6d8ce5c189917b

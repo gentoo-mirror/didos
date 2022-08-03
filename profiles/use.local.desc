@@ -1,0 +1,675 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-arch/lzop:lld - Add support for the lld linker
+app-crypt/seahorse:ldap - Enable seahorse to manipulate GPG keys on a LDAP server.
+app-eselect/eselect-lcdfilter:vanilla - don't patch presets to make them easier to compare
+app-misc/radeontop:amdgpu - amdgpu VRAM size and usage reporting (requires CONFIG_DEVMEM)
+app-misc/radeontop:xcb - Allow to run unprivileged in Xorg
+app-misc/tmux:utempter - libutempter support - tmux will use utmp(5)
+app-misc/tmux:utf8proc - Use utf8proc for unicode character processing
+app-text/asciidoc:highlight - Enable source code highlighting
+app-text/docbook-xsl-stylesheets:fo - fo
+app-text/docbook-xsl-stylesheets:images - images
+app-text/docbook-xsl-stylesheets:params - params
+app-text/docbook-xsl-stylesheets:ruby - Install the Ruby-based dbtoepub script; requires an interpreter compatible with app-eselect/eselect-ruby.
+app-text/docbook-xsl-stylesheets:slides - slides
+app-text/docbook-xsl-stylesheets:webhelp - webhelp
+dev-db/sqlite:secure-delete - Enable overwriting of deleted content with zeros by default (http://sqlite.org/pragma.html#pragma_secure_delete), causing some performance penalty
+dev-db/sqlite:tools - Install additional tools
+dev-lang/python:bluetooth - Build Bluetooth protocol support in socket module
+dev-lang/python:threads - Enable threading support. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
+dev-lang/python:wide-unicode - Enable wide Unicode implementation which uses 4-byte Unicode characters. Switching of this USE flag changes ABI of Python and requires reinstallation of many Python modules. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
+dev-lang/python:wininst - Install Windows executables required to create an executable installer for MS Windows.
+dev-lang/rust:cargo - Install clippy, a linting tool
+dev-lang/rust:jemalloc - Use dev-libs/jemalloc as the standard memory allocator
+dev-lang/rust:rls - Install rls component
+dev-lang/rust:rustfmt - Install rustfmt component
+dev-lang/rust:system-llvm - Use system llvm
+dev-lang/rust:thumbv7neon - Install arm optimisation
+dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
+dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
+dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of programs that link to spidermonkey -- note this will often crash software on regular end-user systems
+dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of bundled -- note, only takes effect when icu flag is enabled
+dev-lang/spidermonkey:threadsafe - Build a threadsafe version of spidermonkey
+dev-libs/glib:dbus - Enable dependencies required by glib libraries using dbus service to manage settings saving
+dev-libs/glib:fam - Use fam for file system monitoring
+dev-libs/glib:iconv_gnu - iconv_gnu
+dev-libs/glib:iconv_libc - iconv_libc
+dev-libs/glib:iconv_native - iconv_native
+dev-libs/glib:libmount - libmount
+dev-libs/glib:man - generate man pages
+dev-libs/glib:mime - Pull in shared MIME database that many glib-based applications require at runtime to detect or open files. Warning: do not disable this flag unless installing on a headless server.
+dev-libs/glib:systemtap - Build support for profiling and tracing using dev-util/systemtap
+dev-libs/glib:trace - Build support for profiling and tracing using dev-util/systemtap and dtrace
+dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
+dev-libs/gmp:asm - Enable use of hand optimized assembly routines (faster execution)
+dev-libs/gmp:pic - Force static libraries to be built as PIC to avoid TEXTRELs.
+dev-libs/intel-common:compiler - Install the libraries needed for the icc and ifort compilers
+dev-libs/libgit2:curl - Use net-misc/curl for HTTP support (otherwise, limited built-in implementation will be used)
+dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
+dev-libs/libgit2:https - Secure HTTP support
+dev-libs/libgit2:https_mbedtls - mbedTLS HTTPS backend
+dev-libs/libgit2:https_openssl - OpenSSL HTTPS backend
+dev-libs/libgit2:sha1_collision_detection - CollisionDetection SHA1 backend
+dev-libs/libgit2:sha1_generic - Generic SHA1 backend
+dev-libs/libgit2:sha1_mbedtls - mbedTLS SHA1 backend
+dev-libs/libgit2:sha1_openssl - OpenSSL SHA1 backend
+dev-libs/libgit2:ssh - Enable SSH transport support
+dev-libs/libgit2:trace - Enable tracing support
+dev-libs/libxml2:c14n - Canonicalization support
+dev-libs/libxml2:catalog - Catalog suppor
+dev-libs/libxml2:debug - debugging module
+dev-libs/libxml2:docbook - Docbook SGML support
+dev-libs/libxml2:fexceptions - GCC flag -fexceptions for C++ exceptions
+dev-libs/libxml2:ftp - FTP support
+dev-libs/libxml2:history - history support to xmllint shell
+dev-libs/libxml2:html - HTML support
+dev-libs/libxml2:http - HTTP support
+dev-libs/libxml2:iso8859x - ISO8859X support if no iconv
+dev-libs/libxml2:legacy - deprecated APIs for compatibility
+dev-libs/libxml2:mem_debug - memory debugging module
+dev-libs/libxml2:modules - dynamic modules support
+dev-libs/libxml2:output - serialization support
+dev-libs/libxml2:pattern - xmlPattern selection interface
+dev-libs/libxml2:push - PUSH parser interfaces
+dev-libs/libxml2:python - build Python bindings
+dev-libs/libxml2:reader - xmlReader parsing interface
+dev-libs/libxml2:regexps - Regular Expressions support
+dev-libs/libxml2:run_debug - Runtime debugging module
+dev-libs/libxml2:sax1 - Older SAX1 interface
+dev-libs/libxml2:schemas - Relax-NG and Schemas support
+dev-libs/libxml2:schematron - Schematron support
+dev-libs/libxml2:thread-alloc - per-thread memory
+dev-libs/libxml2:tree - DOM like tree manipulation APIs
+dev-libs/libxml2:valid - DTD validation support
+dev-libs/libxml2:writer - xmlWriter saving interface
+dev-libs/libxml2:xinclude - XInclude support
+dev-libs/libxml2:xpath - XPATH support
+dev-libs/libxml2:xptr - XPointer support
+dev-python/docker-py:ssh - Enable connecting to the dDocker engine via SSH connection
+dev-python/gitlab:man - Build and install manpages (requires sphinx)
+dev-python/pycurl:ssl_gnutls - ssl_gnutls
+dev-python/pycurl:ssl_nss - ssl_nss
+dev-python/pycurl:ssl_openssl - ssl_openssl
+dev-util/aseman-qt-tools:keychain - keychain
+dev-util/aseman-qt-tools:multimedia - multimedia
+dev-util/aseman-qt-tools:positioning - positioning
+dev-util/aseman-qt-tools:sensors - sensors
+dev-util/aseman-qt-tools:webenginewidgets - webenginewidgets
+dev-util/aseman-qt-tools:webkitwidgets - webkitwidgets
+dev-util/aseman-qt-tools:widgets - widgets
+dev-util/clion:system-clang - Use sys-devel/clang instead of the bundled copy
+dev-util/clion:system-cmake - Use dev-util/cmake instead of the bundled copy
+dev-util/clion:system-gdb - Use sys-devel/gdb instead of the bundled copy
+dev-util/clion:system-lldb - Use sys-devel/llvm instead of the bundled copy
+dev-util/criterion:cpp - Support for C++
+dev-util/criterion:theories - Some tool for test-driven development
+dev-util/gtk-doc:glib-doc - add fix for dev-libs/glib[gtk-doc]
+dev-util/gtk-doc:highlight - Enable source code highlighting
+dev-util/gtk-doc:vim - Enable source code highlighting through app-editors/vim
+dev-util/idea-community:jbr11 - Install and use the Java 11 based version of JetBrains Runtime.
+dev-util/idea-community:jbr8 - Install and use the Java 8 based version of JetBrains Runtime.
+dev-util/rider:mono - Include mono, needed for regular .net and guis
+dev-util/smartgit:kernel - up the memory limit to 3072 because the linux kernel really pushes memory limits
+dev-util/spirv-tools:color-terminal - color-terminal
+dev-util/spirv-tools:compressing-codec - compressing-codec
+dev-util/spirv-tools:executables - executables
+dev-util/strace:aio - Enable dev-libs/libaio support for tracing Asynchronous I/O operations
+dev-util/strace:unwind - Enable stack backtraces (-k flag) via sys-libs/libunwind
+dev-vcs/mercurial:chg - Support Mercurial command server client
+dev-vcs/mercurial:gpg - Support signing with GnuPG.
+dev-vcs/mercurial:tk - Install dev-lang/tk for hgk script.
+games-simulation/firestorm-bin:fmod - pull in media-libs/fmod for sound support
+gnome-base/gnome-control-center:colord - Support color management using x11-misc/colord
+gnome-base/gnome-control-center:flickr - Add support for using photos from flickr as desktop background
+gnome-base/gnome-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
+gnome-base/gnome-control-center:ibus - Enable support for enhanced input methods through app-i18n/ibus
+gnome-base/gsettings-desktop-schemas:vanilla-fonts - Don't patch in the ability to use other fonts. These are the hardcoded fonts GNOME originally envisioned.
+gnome-base/gvfs:afp - Enables support for accessing AFP (Apple Filing Protocol) network shares
+gnome-base/gvfs:archive - Enables support for accessing files in archives transparently via app-arch/libarchive
+gnome-base/gvfs:bluray - Enable playback of Blu-ray filesystems using media-libs/libbluray
+gnome-base/gvfs:fuse - Enables fuse mount points in $HOME/.gvfs for legacy application access
+gnome-base/gvfs:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
+gnome-base/gvfs:google - Enables support for accessing Google accounts via dev-libs/libgdata
+gnome-base/gvfs:http - Enable the HTTP/DAV backend using net-libs/libsoup
+gnome-base/gvfs:nfs - Enable NFS client support via net-fs/libnfs.
+gnome-base/gvfs:sftp - support ssh file transfer protocol
+gnome-base/gvfs:udev - Enable udev base replacement code for cdda feature
+gnome-base/librsvg:tools - Build svg viewer tool
+kde-plasma/plasma-meta:browser-integration - Enable integration with Chrome/Firefox with browser extensions
+kde-plasma/plasma-meta:consolekit - Enable sys-auth/consolekit support instead of logind session tracking
+kde-plasma/plasma-meta:crypt - Pull in kde-plasma/plasma-vault for encrypted vaults integration
+kde-plasma/plasma-meta:desktop-portal - Enable sys-apps/xdg-desktop-portal backend implementation for Plasma
+kde-plasma/plasma-meta:discover - Pull in resources management GUI; a centralised GHNS alternative and optional sys-apps/fwupd frontend
+kde-plasma/plasma-meta:display-manager - Pull in a graphical display manager
+kde-plasma/plasma-meta:elogind - Use sys-auth/elogind for session tracking
+kde-plasma/plasma-meta:grub - Pull in Breeze theme for sys-boot/grub
+kde-plasma/plasma-meta:gtk - Enable Breeze widget style and KCM for GTK2 and GTK3
+kde-plasma/plasma-meta:legacy-systray - Add support for legacy applications using kde-plasma/xembed-sni-proxy
+kde-plasma/plasma-meta:pam - Enable support for kwallet auto-unlocking
+kde-plasma/plasma-meta:plymouth - Pull in Breeze theme for sys-boot/plymouth
+kde-plasma/plasma-meta:pm-utils - Enable support for suspend/resume with sys-power/pm-utils when using sys-auth/consolekit
+kde-plasma/plasma-meta:powerdevil - Install power management software
+kde-plasma/plasma-meta:processviewer - install kde-plasma/ksysguard, a full gui task manager
+kde-plasma/plasma-meta:pulseaudio - Install Plasma applet for PulseAudio volume management
+kde-plasma/plasma-meta:sddm - Pull in the x11-misc/sddm display manager and KCM
+kde-plasma/plasma-meta:sdk - Pull in kde-plasma/plasma-sdk for Plasma development
+kde-plasma/plasma-meta:task-manager - install kde-plasma/ksysguard, a full gui task manager
+kde-plasma/plasma-meta:text-editor - pull in kate, a full gui text editor
+kde-plasma/plasma-meta:wallpapers - Install wallpapers for the Plasma Workspace
+lxqt-base/lxqt-meta:about - Install lxqt-base/lxqt-about
+lxqt-base/lxqt-meta:admin - Install lxqt-base/lxqt-admin
+lxqt-base/lxqt-meta:archiver - Install app-arch/lxqt-archiver
+lxqt-base/lxqt-meta:display-manager - Install a graphical display manager
+lxqt-base/lxqt-meta:filemanager - Install x11-misc/pcmanfm-qtfile manager
+lxqt-base/lxqt-meta:lightdm - Install x11-misc/lightdmdisplay manager
+lxqt-base/lxqt-meta:lximage - Install media-gfx/lximage-qtimage viewer
+lxqt-base/lxqt-meta:minimal - Do not install x11-wm/openboxwindow manager
+lxqt-base/lxqt-meta:nls - Install dev-qt/qttranslations to better support different locales
+lxqt-base/lxqt-meta:powermanagement - Install lxqt-base/lxqt-powermanagement package
+lxqt-base/lxqt-meta:processviewer - Install x11-misc/qps package
+lxqt-base/lxqt-meta:screenlock - Install light-weight screen lockers for xdg support
+lxqt-base/lxqt-meta:screensaver - Install the full xscreensaver package
+lxqt-base/lxqt-meta:screenshot - Install x11-misc/screengrab package
+lxqt-base/lxqt-meta:sddm - Install x11-misc/sddm display manager
+lxqt-base/lxqt-meta:ssh-askpass - Install lxqt-base/lxqt-openssh-askpass user password prompt tool
+lxqt-base/lxqt-meta:sudo - Install lxqt-base/lxqt-sudo
+lxqt-base/lxqt-meta:terminal - Install x11-terms/qterminal package
+lxqt-base/lxqt-meta:trash - Install gnome-base/gvfs to enable 'trash' functionality in x11-misc/pcmanfm-qt
+mail-client/thunderbird:arm64 - build with arm64 specific optimisation
+mail-client/thunderbird:bindist - Disable official Thunderbird branding (icons, name) which are not binary-redistributable according to upstream.
+mail-client/thunderbird:clang - Use Clang compiler instead of GCC
+mail-client/thunderbird:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
+mail-client/thunderbird:kde - Use OpenSUSE patchset to build in support for native Plasma Desktop file dialog via kde-misc/kmozillahelper.
+mail-client/thunderbird:lightning - Enable app-global calendar support (note 38.0 and above bundles calendar support when this flag is off)
+mail-client/thunderbird:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
+mail-client/thunderbird:system-icu - Use the system-wide dev-libs/icu instead of bundled.
+mail-client/thunderbird:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
+mail-client/thunderbird:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
+mail-client/thunderbird:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
+mail-client/thunderbird:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
+media-fonts/liberation-fonts:fontforge - Use media-gfx/fontforge to build fonts from source
+media-fonts/liberation-fonts:vanilla - Don't fix errors in character mapping
+media-gfx/fontforge:extras - Build and install programs from the contrib directory
+media-gfx/fontforge:gui - Build FontForge with GUI support
+media-gfx/fontforge:libspiro - Add support for media-libs/libspiro
+media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
+media-gfx/fontforge:woff2 - Enable support for WOFF2 format
+media-gfx/imagemagick:corefonts - Use media-fonts/corefonts which is required by some commands
+media-gfx/imagemagick:fpx - Enable media-libs/libfpx support
+media-gfx/imagemagick:hdri - Enable High Dynamic Range Images formats
+media-gfx/imagemagick:heif - Enable support for ISO/IEC 23008-12:2017 HEIF/HEIC image format using media-libs/libheif
+media-gfx/imagemagick:lqr - Enable experimental liquid rescale support using media-libs/liblqr
+media-gfx/imagemagick:opencl - Enable OpenCL support
+media-gfx/imagemagick:pango - Enable Pango support using x11-libs/pango
+media-gfx/imagemagick:q32 - Set quantum depth value to 32
+media-gfx/imagemagick:q8 - Set quantum depth value to 8
+media-gfx/solvespace:spacenav - add spacenav driver
+media-libs/libepoxy:egl - Enable EGL support.
+media-libs/libplacebo:bench - build benchmarks
+media-libs/libplacebo:vulkan - Support for Vulkan
+media-libs/libvorbis:oggtest - Build and run oggtest utility
+media-libs/libxcam:capi - libxcam-capi
+media-libs/libxcam:drm - drm buffer
+media-libs/libxcam:gst - gstreamer plugin
+media-libs/libxcam:libcl - libcl image processor
+media-libs/libxcam:opencv - opencv
+media-libs/libxcam:profiling - profiling
+media-libs/libxcam:smartlib - smart analysis lib
+media-libs/mesa:classic - Build drivers based on the classic architecture.
+media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
+media-libs/mesa:dri3 - Enable DRI3 support.
+media-libs/mesa:egl - Enable EGL support.
+media-libs/mesa:gallium - Build drivers based on Gallium3D, the new architecture for 3D graphics drivers.
+media-libs/mesa:gbm - Enable the Graphics Buffer Manager for EGL on KMS.
+media-libs/mesa:gles1 - Enable GLESv1 support.
+media-libs/mesa:gles2 - Enable GLESv2 support.
+media-libs/mesa:libglvnd - Use libglvnd for dispatch.
+media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
+media-libs/mesa:omx-bellagio - Uses the older Bellagio as the OpenMAX IL
+media-libs/mesa:omx-tizonia - Uses the newer Tizonia as the OpenMAX IL
+media-libs/mesa:opencl - Enable the Clover Gallium OpenCL state tracker.
+media-libs/mesa:openmax - Enable OpenMAX support
+media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
+media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
+media-libs/mesa:pic - disable optimized assembly code that is not PIC friendly
+media-libs/mesa:valgrind - Compile in valgrind memory hints
+media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
+media-libs/mesa:vulkan - Enable Vulkan drivers
+media-libs/mesa:vulkan-overlay - Build vulkan-overlay-layer which displays Frames Per Second and other statistics
+media-libs/mesa:wayland - Enable support for dev-libs/wayland
+media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
+media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
+media-libs/openal:examples - Build example utilities
+media-libs/openal:gui - Build alsoft-config configuration utility
+media-libs/openal:tests - Build testing utilities
+media-libs/openal:utils - Build various utilities
+media-libs/x264:10bit - Set output bit depth to 10, this may not be compatible with all decoders
+media-libs/x264:interlaced - enable interlaced encoding support, this can decrease encoding speed by up to 2%
+media-libs/x264:lto - Build using Link Time Optimization, improves performance at the risk bugs may occur
+media-libs/x264:opencl - Add support for OpenCL.
+media-libs/x264:pic - disable optimized assembly code that is not PIC friendly
+media-video/ffmpeg:amr - Enables Adaptive Multi-Rate Audio support
+media-video/ffmpeg:amrenc - Enables Adaptive Multi-Rate Audio encoding support with media-libs/vo-amrwbenc.
+media-video/ffmpeg:appkit - Enables Apple AppKit framework
+media-video/ffmpeg:bluray - Enable playback of Blu-ray filesystems
+media-video/ffmpeg:bs2b - Enables media-libs/libbs2b based Bauer stereo-to-binaural filter.
+media-video/ffmpeg:cdio - Enables audio CD grabbing with dev-libs/libcdio.
+media-video/ffmpeg:chromaprint - Enables audio fingerprinting support with media-libs/chromaprint.
+media-video/ffmpeg:chromium - Builds libffmpeg.so to enable media playback in Chromium-based browsers like Opera and Vivaldi.
+media-video/ffmpeg:codec2 - Enables codec2 low bit rate speech codec support via media-libs/codec2.
+media-video/ffmpeg:cpudetection - Enables runtime CPU detection (useful for bindist, compatibility on other CPUs)
+media-video/ffmpeg:cuda - Enables CUDA-based acceleration. Mostly used for specific filters.
+media-video/ffmpeg:dav1d - Enables AV1 decoding via media-libs/dav1d.
+media-video/ffmpeg:fdk - Use external fdk-aac library for AAC encoding
+media-video/ffmpeg:flite - Adds a text-to-speech filter based on app-accessibility/flite.
+media-video/ffmpeg:frei0r - Enable frei0r wrapping in libavfilter
+media-video/ffmpeg:fribidi - Enables fribidi support in the drawtext filter.
+media-video/ffmpeg:gcrypt - Enables gcrypt support: Needed for rtmp(t)e support if openssl, librtmp or gmp is not used.
+media-video/ffmpeg:gme - Enables support for media-libs/game-music-emu for playing various video game music formats.
+media-video/ffmpeg:gpl - Build GPL code. Should be enabled unless you require LGPL binaries.
+media-video/ffmpeg:hardcoded-tables - Use pre-calculated tables rather than calculating them on the fly.
+media-video/ffmpeg:iec61883 - Support for FireWire DV/HDV input device using media-libs/libiec61883.
+media-video/ffmpeg:kvazaar - Enables media-libs/kvazaar based HEVC encoder.
+media-video/ffmpeg:libaom - Enables media-libs/libaom based AV1 codec support.
+media-video/ffmpeg:libaribb24 - Enables ARIB text and caption decoding via media-libs/aribb24.
+media-video/ffmpeg:libdrm - Enables x11-libs/libdrm support for better screen grabbing and hardware accelerated codecs.
+media-video/ffmpeg:libilbc - Enables iLBC de/encoding via media-libs/libilbc.
+media-video/ffmpeg:librtmp - Enables Real Time Messaging Protocol using librtmp (media-video/rtmpdump) in addition to FFmpeg's native implementation.
+media-video/ffmpeg:libsoxr - Enables audio resampling through media-libs/soxr.
+media-video/ffmpeg:libtesseract - Enables the OCR filter via app-text/tesseract.
+media-video/ffmpeg:libv4l - Uses media-libs/libv4l for video4linux instead of direct calls. Adds support for more devices via the userspace library.
+media-video/ffmpeg:libxml2 - Uses dev-libs/libxml2 to enable dash demuxing support.
+media-video/ffmpeg:lv2 - Enables lv2 audio filter wrapper.
+media-video/ffmpeg:mipsdspr1 - Enables MIPS DSP ASE R1 optimizations.
+media-video/ffmpeg:mipsdspr2 - Enables MIPS DSP ASE R2 optimizations.
+media-video/ffmpeg:mipsfpu - Enables floating point MIPS optimizations.
+media-video/ffmpeg:mmal - Enables Multi-Media Abstraction Layer (MMAL) decoding support: Available e.g. on the Raspberry Pi.
+media-video/ffmpeg:network - Enables network streaming support
+media-video/ffmpeg:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
+media-video/ffmpeg:opencl - Enable OpenCL support
+media-video/ffmpeg:openh264 - Enables H.264 encoding suppoprt via media-libs/openh264.
+media-video/ffmpeg:openssl - Enables dev-libs/openssl support. Adds support for encrypted network protocols (TLS/HTTPS).
+media-video/ffmpeg:pic - Force shared libraries to be built as PIC (this is slower)
+media-video/ffmpeg:postproc - Build and install libpostproc.
+media-video/ffmpeg:rubberband - Adds time-stretching and pitch-shifting audio filter based on media-libs/rubberband.
+media-video/ffmpeg:snappy - Enable app-arch/snappy support. Required for e.g. Vidvox Hap encoder.
+media-video/ffmpeg:srt - Enable support for Secure Reliable Transport (SRT) via net-libs/srt
+media-video/ffmpeg:ssh - Enable SSH/sftp support via net-libs/libssh.
+media-video/ffmpeg:twolame - Enables MP2 encoding via media-sound/twolame as an alternative to the internal encoder.
+media-video/ffmpeg:vidstab - Enables video stabilization filter using vid.stab library (media-libs/vidstab).
+media-video/ffmpeg:vpx - Enables VP8 and VP9 codec support using libvpx: Decoding does not require this to be enabled but libvpx can also be used for decoding; encoding requires this useflag to be enabled though.
+media-video/ffmpeg:vulkan - Enables support for the vulkan API for GPU offload.
+media-video/ffmpeg:x265 - Enables HEVC encoding with media-libs/x265.
+media-video/ffmpeg:zeromq - Enables net-libs/zeromq support with the zmq/azmq filters.
+media-video/ffmpeg:zimg - Enables media-libs/zimg based scale filter.
+media-video/ffmpeg:zvbi - Enables media-libs/zvbi based teletext decoder.
+media-video/obs-studio:fdk - Enable libfdk support for AAC encoding.
+media-video/obs-studio:imagemagick - Use ImageMagick for image loading instead of FFmpeg.
+media-video/obs-studio:luajit - Build support for scripting via Luajit.
+media-video/obs-studio:nvenc - Enable NVENC encoding for nVidia video cards.
+media-video/obs-studio:python - Build support for scripting via Python 3.
+media-video/obs-studio:speex - Enable noise suppression filter support via media-libs/speexdsp.
+media-video/obs-studio:ssl - Build support for TLS/SSL connections (RTMPS) via net-libs/mbedtls.
+media-video/obs-studio:v4l2sink - Enable the use of a virtual webcam.
+media-video/obs-studio:vlc - Build support for using media-video/vlc as a media source.
+media-video/vlc:10bit - use default behaviour where both 10 and 8 bit support is enabled as opposed to just 8 bit (flag exists for compatibility)
+media-video/vlc:X - Enable support for e.g. fullscreen mode via X and the X C-language binding. It does not build a graphical interface
+media-video/vlc:aa - Enable ASCII filter
+media-video/vlc:aom - Enable experimental support for AV1 codec
+media-video/vlc:archive - Enable support for libarchive stream extractor
+media-video/vlc:aribsub - Enable support for decoding ARIB STD-B24 subtitles
+media-video/vlc:bluray - Enable libbluray for Blu-ray disc support
+media-video/vlc:chromaprint - Enable libchromaprint for Chromaprint based audio fingerprinter support
+media-video/vlc:chromecast - Enable experimental support for Google Chromecast
+media-video/vlc:dav1d - Enable support for media-libs/dav1d AV1 decoder
+media-video/vlc:dc1394 - Enable IIDC cameras support
+media-video/vlc:decklink - Enable decklink support
+media-video/vlc:directx - Enable Win32 DirectX, D3D11va and DxVA2 support
+media-video/vlc:dvbpsi - Enable support for Mpeg-TS files (.ts, .m2ts, .mts) via media-libs/libdvbpsi
+media-video/vlc:encode - Enable streaming-output support and videolan manager to control multiple streams from within one instance
+media-video/vlc:faad - Enable AAC audio decoding library support via media-libs/faad2
+media-video/vlc:fdk - Enable the Fraunhofer AAC codec library
+media-video/vlc:fluidsynth - Enable Fluidsynth MIDI software synthesis (with external sound fonts)
+media-video/vlc:gcrypt - Enable cryptography support via libgcrypt
+media-video/vlc:gme - Enable support for media-libs/game-music-emu for playing various video game music formats
+media-video/vlc:gstreamer - Enable GStreamer based decoding support (currently supports only video decoding)
+media-video/vlc:kate - Adds support for Ogg Kate subtitles via libkate
+media-video/vlc:libplacebo - enable libplacebo (library based off mpv)
+media-video/vlc:libtar - Uses libtar instead of the built-in tar reader for reading custom skins
+media-video/vlc:libtiger - Enable Ogg Kate subtitles rendering using libtiger
+media-video/vlc:linsys - Enable support for Linux Linear Systems Ltd. SDI and HD-SDI input cards
+media-video/vlc:live - Enable live555 streaming media support (client support for rtsp, preferred option)
+media-video/vlc:lua - Enable Lua scripting support, needed for including support for Jamendo (online music platform) and similar things
+media-video/vlc:macosx-notifications - Enable Mac OS X notifications module (formerly growl)
+media-video/vlc:macosx-qtkit - Enable Mac OS X qtkit module: qtcapture (video) and qtsound (audio) module
+media-video/vlc:matroska - Enable matroska support using reference libraries (fallback on other existing matroska support if disabled, i.e., matroska enabled FFmpeg)
+media-video/vlc:mfx - Add mfx (quicksync) support
+media-video/vlc:mpeg - Add libmpeg2 support for mpeg-1 and mpeg-2 video streams
+media-video/vlc:nfs - Enable support for nfs protocol via net-fs/libnfs
+media-video/vlc:omxil - Enable OpenMAX Integration Layer codec module
+media-video/vlc:opencv - Enable OpenCV (computer vision) filter module
+media-video/vlc:optimisememory - Enable optimisation for memory rather than performance
+media-video/vlc:opus - Support opus decoding via libopus
+media-video/vlc:oss - Support oss (open source sound system)
+media-video/vlc:postproc - Enable image post-processing via libpostproc (part of FFmpeg)
+media-video/vlc:projectm - Enable the projectM visualization plugin
+media-video/vlc:realrtsp - Enable rtsp support using realrtsp
+media-video/vlc:rtsp - Enable rtsp support
+media-video/vlc:run-as-root - Allows vlc to start for root. Don't enable this unless you have a very specific (e.g. embedded) need for it!
+media-video/vlc:schroedinger - Enable Dirac video support (an advanced royalty-free video compression format) via libschroedinger (high-speed implementation in C of the Dirac codec)
+media-video/vlc:screen - Enable screen capture support
+media-video/vlc:sdl-image - Enable sdl image video decoder (depends on sdl)
+media-video/vlc:sftp - Enable libssh2 to support SFTP file transfer
+media-video/vlc:shine - use the shine mp3 encoder
+media-video/vlc:shout - Enable libshout output
+media-video/vlc:sid - Adds support for playing C64 SID files through media-libs/libsidplay:2
+media-video/vlc:skins - Enable support for the skins2 interface
+media-video/vlc:sndio - Enable support for sndio
+media-video/vlc:soxr - Enable SoX Resampler support via media-libs/soxr
+media-video/vlc:spatialaudio - Enable support for the spatialaudio library
+media-video/vlc:srt - Enable support for Secure Reliable Transport (SRT) via net-libs/srt
+media-video/vlc:tremor - Enable tremor, a fixed-point version of the Ogg Vorbis decoder
+media-video/vlc:twolame - Enable twolame support (MPEG Audio Layer 2 encoder)
+media-video/vlc:upnp - Enable support for the Intel SDK stack based UPnP discovery module instead of CyberLink
+media-video/vlc:vcd - add vcd and cd-da (audio cd) support
+media-video/vlc:vlc - build vlc, disabling this builds just a library
+media-video/vlc:vpx - Enable the decoder(s) from the WebM VP8 / VP9 Codec SDK
+media-video/vlc:wma-fixed - Enable fixed point WMA decoder
+media-video/vlc:x265 - Support X265 Encoder
+media-video/vlc:zeroconf - Enable support for zero-configuration networking via avahi
+media-video/vlc:zvbi - Enable support for teletext subtitles via the zvbi library
+net-libs/libpsl:man - Build man-pages
+net-libs/libtorrent-rasterbar:dht - Enable DHT (distributed hash table) support
+net-libs/nodejs:bundled-ssl - Use bundled OpenSSL instead of system-wide (EXPERIMENTAL)
+net-libs/nodejs:inspector - Enable V8 inspector
+net-libs/nodejs:npm - Enable NPM package manager
+net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
+net-libs/nodejs:systemtap - Enable SystemTAP/DTrace tracing
+net-libs/telegram-qt:generator - Build protocol code generator
+net-libs/telegram-qt:qml-import - Enable compilation of qml import plugin
+net-libs/telegram-qt:widgets-client - Build a widgets-based client
+net-misc/curl:adns - Add support for asynchronous DNS resolution via c-ares library
+net-misc/curl:alt-svc - Alternative Service HTTP header support
+net-misc/curl:brotli - Brotli content encoding support
+net-misc/curl:cookies - Cookies support
+net-misc/curl:curl_ssl_mbedtls - Use mbed TLS (previously PolarSSL)
+net-misc/curl:curldebug - curl debug memory tracking
+net-misc/curl:dict - DICT protocol
+net-misc/curl:digest - Digest access authentication
+net-misc/curl:file - file
+net-misc/curl:fish - support fish shell
+net-misc/curl:ftps - FTPS
+net-misc/curl:gopher - Gopher
+net-misc/curl:http - HTTP (Hypertext Transfer Protocol)
+net-misc/curl:http2 - HTTP/2 - a major revision of the HTTP network protocol
+net-misc/curl:imaps - IMAPS
+net-misc/curl:largefile - Support large files (2GB+)
+net-misc/curl:ldaps - LDAPS
+net-misc/curl:libcurl-option - libcurl C code generation support
+net-misc/curl:libgcc - Use libgcc when linking
+net-misc/curl:manual - Built-in manual
+net-misc/curl:metalink - metalink (.meta4, .metalink files)
+net-misc/curl:ntlm-wb - NTLM delegation to winbind's ntlm_auth helper
+net-misc/curl:openssl-auto-load-config - Automatic loading of OpenSSL configuration
+net-misc/curl:pop3 - POP3 (Post Office Protocol version 3)
+net-misc/curl:pop3s - POP3S
+net-misc/curl:progress-meter - have a Progress meter
+net-misc/curl:proxy - Proxy support
+net-misc/curl:psl - PSL (Publix Suffix List) - avoids privacy-leaking "supercookies"
+net-misc/curl:quiche - Add quiche library that supports QUIC and http3
+net-misc/curl:rt - Add dependency on -lrt
+net-misc/curl:rtmp - RTMP (Real-Time Messaging Protocol) Streaming Media
+net-misc/curl:rtsp - RTSP (Real Time Streaming Protocol)
+net-misc/curl:sambas - SMBS/CIFS
+net-misc/curl:sftp - SFTP (SSH File Transfer Protocol)
+net-misc/curl:shared-libs - build shared libraries
+net-misc/curl:smtp - SMTP (Simple Mail Transfer Protocol)
+net-misc/curl:smtps - SMTPS
+net-misc/curl:ssh - add support for ssh
+net-misc/curl:ssh-old - libssh support for (SCP, SFTP)
+net-misc/curl:ssh2 - libssh2 support for (SCP, SFTP)
+net-misc/curl:symbol-hiding - Hide library internal symbols ("-fvisibility=hidden"; https://gcc.gnu.org/wiki/Visibility)
+net-misc/curl:telnet - telnet
+net-misc/curl:tftp - TFTP (Trivial File Transfer Protocol)
+net-misc/curl:threads - Use threaded DNS resolver
+net-misc/curl:tls-srp - TLS-SRP authentication
+net-misc/curl:unix-sockets - Unix domain sockets
+net-misc/curl:verbose - Verbose strings (disable to reduce size)
+net-misc/curl:versioned-symbols - Versioned symbols in shared library (https://gcc.gnu.org/wiki/SymbolVersioning)
+net-misc/curl:zsh - support zsh shell
+net-misc/iputils:arping - Build and install `arping` -- tool for sending ARP requests to peers (see also net-analyzer/arping)
+net-misc/iputils:clockdiff - Build and install clockdiff -- tool for comparing clocks via ICMP packets
+net-misc/iputils:crypto - Enable crypto support
+net-misc/iputils:crypto_gcrypt - Use dev-libs/libgcrypt for crypto support
+net-misc/iputils:crypto_kernel - Use kernel Crypto API for crypto support
+net-misc/iputils:crypto_nettle - Use dev-libs/nettle for crypto support
+net-misc/iputils:crypto_openssl - Use dev-libs/openssl for crypto support
+net-misc/iputils:html - Build HTML versions of manpages (requires extra dependencies)
+net-misc/iputils:man - Build manpages (requires extra dependencies)
+net-misc/iputils:ninfod - Build and install `ninfod`
+net-misc/iputils:ninfod-messages - Enable debug messages in `ninfod`
+net-misc/iputils:ping - Build and install `ping`
+net-misc/iputils:rarpd - Build and install rarpd -- server for handling RARP (reverse ARP) requests; generally only used by old systems
+net-misc/iputils:rdisc - Build and install rdisc -- server for the client side of the ICMP router discover protocol
+net-misc/iputils:rdisc-server - Build and install `rdisc-server`
+net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
+net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
+net-misc/iputils:traceroute6 - Build and install traceroute6 -- tool for tracing network paths (see also net-analyzer/traceroute)
+net-vpn/nordvpn:nordlynx - Enable NordLynx support using the WireGuard protocol
+sci-libs/mkl:int64 - Build the 64 bits integer library
+sys-apps/hwloc:gl - Enable GL display device discovery (NVCtrl)
+sys-apps/hwloc:numa - Add support for numa memory allocation
+sys-apps/hwloc:opencl - Enable OpenCL device discovery (AMD only)
+sys-apps/hwloc:pci - Enable PCI device discovery using libpci
+sys-apps/hwloc:plugins - Build hwloc components as plugins so that the hwloc core library does not directly depend on their dependencies (for instance the libpci library)
+sys-apps/kmod:lzma - Enable support for XZ compressed modules
+sys-apps/kmod:tools - Install module loading/unloading tools.
+sys-apps/kmod:zlib - Enable support for gzipped modules
+sys-apps/portage:aix - use aix utils
+sys-apps/portage:apidoc - Build html API documentation with sphinx-apidoc.
+sys-apps/portage:changelog - patch support for viewing changelogs back in, changing the shorthand to make it upstream config compatible
+sys-apps/portage:gentoo-dev - Enable features required for Gentoo ebuild development.
+sys-apps/portage:ipc - Use inter-process communication between portage and running ebuilds.
+sys-apps/portage:native-extensions - Compiles native "C" extensions (speedups, instead of using python backup code). Currently includes libc-locales. This should only be temporarily disabled for some bootstrapping operations. Cross-compilation is not supported.
+sys-apps/portage:pax - use pax utils
+sys-apps/portage:rsync - support rsync repositories
+sys-apps/portage:rsync-verify - Enable full-tree cryptographic verification of Gentoo repository rsync checkouts using app-portage/gemato.
+sys-apps/portage:sandbox - use sandbox
+sys-apps/portage:verbose - turn this off if you feel portage is too verbose
+sys-apps/portage:xattr - Preserve extended attributes (filesystem-stored metadata) when installing files. Usually only required for hardened systems.
+sys-apps/sandbox:ptrace - Use ptrace functions
+sys-apps/world:amd - Add support for amd cpus
+sys-apps/world:anaconda - One of your chosen options requires anaconda which has a large number of python development features, you will need to install it from inside sublime text. you can turn off linting with {"anaconda_linting": false}
+sys-apps/world:archive - install app-arch/xarchiver in order to access archives with a gui
+sys-apps/world:ath9k - Install the ath9k driver for 802.11n qualcomm/atheros NICs
+sys-apps/world:bfq - Install the bfq scheduler
+sys-apps/world:bmq - Install the bmq scheduler
+sys-apps/world:broadcom - add support for broadcom devices
+sys-apps/world:browser - install a graphical web browser
+sys-apps/world:btrfs - install sys-fs/btrfs-progs for btrfs, a recently matured snapshotting copy-on-write file system, and the relevant kernel drivers
+sys-apps/world:bzip2 - compress the kernel with bzip2
+sys-apps/world:cad - install media-gfx/solvespace for fully parametric 2d and 3d cad that's simple, easy to use and exports to a wide variety of formats
+sys-apps/world:chrome - install chromium/chrome of some variety
+sys-apps/world:composite - install x11-misc/picom to enable compositing, a way to render extra effects and transparency in windows
+sys-apps/world:composite-gui - install lxqt-base/compton-conf, a gui to configure compton
+sys-apps/world:copy-notification - require that the file manager creates a notification when a copy operation is complete
+sys-apps/world:dev - install app-portage/repoman, a tool designed to aid in managing overlays
+sys-apps/world:dev-java - install dev-util/eclipse-sdk-bin, an ide designed for java
+sys-apps/world:discord - install discord, an online messenger and games store
+sys-apps/world:dolphin - install kde-apps/dolphin, the tabbed file manager of kde. This may not be the best file manager for newcomers
+sys-apps/world:efi - ensure efi support is built, most modern systems need this
+sys-apps/world:exfat - Install drivers to work with exfat partitions
+sys-apps/world:ext2 - Install drivers to work with ext2 partitions
+sys-apps/world:extended-glyphs - install media-fonts/noto, a font that supports a lot of glyphs
+sys-apps/world:f2fs - Install drivers to work with f2fs partitions
+sys-apps/world:fat - ensure fat filesystem support is built, in many cases this should not be the only filesystem
+sys-apps/world:firefox - install www-client/firefox, this is quicker to compile from source, and has better privacy options
+sys-apps/world:flash - ensure the www-plugins/adobe-flash plugin is installed. flash is a dying platform, however there are historic games and animations made with it
+sys-apps/world:fluxbox - use x11-wm/fluxbox as the window manager of choice. typically this has medium performance and can even be used as a full desktop solution if so desired
+sys-apps/world:fslint - install app-misc/fslint, this is a useful tool for finding duplicate files, empty directories and other such things to help keep a system clean
+sys-apps/world:ftp - install net-ftp/filezilla as the ftp client
+sys-apps/world:fvwm - use x11-wm/fvwm as the window manager of choice. it has great performance and even has its own desktop environment, however it is very difficult to set up. and is poor at integration.
+sys-apps/world:gentoo-patches - use the official gentoo patchset
+sys-apps/world:gentoo-sources - use the official gentoo kernel sources
+sys-apps/world:gnomekeyring-admin - install app-crypt/seahorse in order to manage gnome keyring with a gui
+sys-apps/world:gzip - compress the kernel with gzip
+sys-apps/world:hygon - Add support for hygon cpus
+sys-apps/world:image-resolution - require that the file manager is able to display an image resolution
+sys-apps/world:index - install mlocate to allow indexing which helps make file searches faster
+sys-apps/world:indicate-transparency - require that the file manager indicates an image's transparency by putting a checkerboard behind it
+sys-apps/world:inkscape - install media-gfx/inkscape, a powerful svg and pdf editor
+sys-apps/world:intel - Add support for intel cpus
+sys-apps/world:irc - install net-irc/kvirc in order to use irc. this is often a preferred way to get volunteer support with issues or make quick queries
+sys-apps/world:ivybridge - Add support for ivybridge cpus
+sys-apps/world:java-ide - install dev-util/eclipse-sdk-bin, a popular java ide
+sys-apps/world:jpeg-thumbnail - require that the file manager creates thumbnails for svg files
+sys-apps/world:js-lint - Add support for linting javascript in sublime-text using
+sys-apps/world:kate - install kde-apps/kate as your gui-based text editor
+sys-apps/world:kyber - Install the kyber scheduler
+sys-apps/world:latex - install app-office/lyx, an editor for latex that's great for beginners
+sys-apps/world:logisim - install sci-electronics/logisim-evolution-holy-cross, a fork of a fork of logisom that performs well
+sys-apps/world:lz4 - compress the kernel with lz4
+sys-apps/world:lzo - compress the kernel with lzo, this usually boots fastest
+sys-apps/world:mail-client - install mail-client/mailspring, a partially open source mail client
+sys-apps/world:mips-emulate - install app-emulation/mars-mips, a MIPS assembly emulator
+sys-apps/world:network-tray - install gnome-extra/nm-applet, a universal system tray that helps with wireless networks
+sys-apps/world:odt - install app-office/libreoffice to handle odt files and convert between them
+sys-apps/world:odt-convert - install dev-tex/tex4ht to convert latex files to odt, which can subsequently be reviewed and converted to docx with libreoffice
+sys-apps/world:odt-thumbnail - require that the file manager creates thumbnails for svg files
+sys-apps/world:openbox - use openbox as the window manager of choice. openbox is more widely supported including having its own configuration gui, at the cost of performance
+sys-apps/world:openrc - Add support for the openrc init system
+sys-apps/world:overlay - install app-portage/layman to handle overlays, not using overlays is generally not supported
+sys-apps/world:pantheon-files - install pantheon-base/pantheon-files, the tabbed file manager of elementary os
+sys-apps/world:parted - install sys-block/gparted to handle partitions
+sys-apps/world:pcmanfm-qt - install x11-misc/pcmanfm-qt, the tabbed file manager of lxqt
+sys-apps/world:pdf-edit - require that the system can edit pdf files
+sys-apps/world:pdf-view - require that the system can view pdf files
+sys-apps/world:pdf-view-accurate - install app-text/mupdf to view high quality pdf renders
+sys-apps/world:pf-sources - use the pf kernel sources
+sys-apps/world:php-ide - install dev-php/phpstorm, a well known non-free php ide
+sys-apps/world:png-thumbnail - require that the file manager creates thumbnails for png files
+sys-apps/world:processviewer - install kde-plasma/ksysguard, a full gui task manager
+sys-apps/world:progress-icon - require that the file manager shows its progress bar on the icon
+sys-apps/world:remote-desktop - install net-misc/anydesk to enable remote desktop functionality
+sys-apps/world:screenshot - install media-gfx/flameshot to handle screenshots
+sys-apps/world:secondlife - install games-simulation/firestorm-bin as a secondlife viewer
+sys-apps/world:secure - Various security options that while more secure reduce performance and make things more difficult
+sys-apps/world:spreadsheet - install app-office/gnumeric to handle spreadsheets
+sys-apps/world:sql - install dev-db/mariadb to handle databases
+sys-apps/world:steam - install games-util/steam-launcher, a software distribution platform with one of the largest game catalogues and proton, a built in version of wine
+sys-apps/world:sublime - install app-editors/sublime-text as your gui-based text editor. many extra features will require you install plugins, these will require that you install package control. note that sublime text is not free and once you are satisfied in your evaluation of the product you should buy a licence, although you are free to evaluate it as much as required.
+sys-apps/world:sublimelinter - One of your chosen options requires sublimelinter which is a large linting framework, you will need to install it from inside sublime text
+sys-apps/world:sudo - install app-admin/sudo in order to run software as root (admin)
+sys-apps/world:svg-edit - require that the system can edit svg files
+sys-apps/world:svg-thumbnail - require that the file manager creates thumbnails for svg files
+sys-apps/world:system-flake8 - require that your python linting uses locally installed flake8. you will need to install SublimeLinter-flake8. make sure to disable anaconda linting.
+sys-apps/world:system-pylint - require that your python linting uses locally installed pylint. you will need to install SublimeLinter-pylint. make sure to disable anaconda linting.
+sys-apps/world:systemd - Add support for the systemd init system
+sys-apps/world:terminal - Install x11-terms/qterminal, a simple terminal emulator often bundled with lxqt
+sys-apps/world:terminal-fast - install x11-terms/kitty, a terminal emulator that utilises hardware acceleration to run fast while using theoretically less resources
+sys-apps/world:text-editor - install a gui based text editor. The default is kate unless you have specific requirements it can't satisfy.
+sys-apps/world:text-editor-color-highlight - require that your text editor has colour highlighting and thus install app-editors/sublime-text to satisfy that. you must install Color Highlight to enable it.
+sys-apps/world:text-editor-js-complete - require that your text editor has javascript code completion and thus install app-editors/sublime-text to satisfy that. you must install JavaScript Enhancements to enable it as well as the npm package flow.
+sys-apps/world:text-editor-js-lint - require that your text editor has javascript linting and thus install app-editors/sublime-text to satisfy that. you must install SublimeLinter contib standard to enable it as well as the npm package standard.
+sys-apps/world:text-editor-php-lint - require that your text editor has php linting and thus install app-editors/sublime-text and dev-lang/php to satisfy that. you must install SublimeLinter-php to enable it.
+sys-apps/world:text-editor-py-complete - require that your text editor has python code completion and thus install app-editors/sublime-text to satisfy that.
+sys-apps/world:threads-16 - Add support for a 16 threaded system
+sys-apps/world:threads-4 - Add support for a 4 threaded system
+sys-apps/world:threads-512 - Add support for a 512 threaded system
+sys-apps/world:uefi - Add support for uefi
+sys-apps/world:viewfont - use the gui of media-gfx/fontforge to view all the glyphs a font offers
+sys-apps/world:xeon - Add support for xeon cpus
+sys-apps/world:xfs - ensure xfs filesystem support is built, xfs has some of the best performance on kernel 5+ for SSDs
+sys-apps/world:xz - compress the kernel with xz
+sys-apps/world:yandex-disk - Install net-misc/yandex-disk, the official yandex disk client
+sys-apps/world:zhaoxin - Add support for zhaoxin cpus
+sys-devel/binutils:default-gold - Set ld to point to ld.gold instead of ld.bfd
+sys-devel/binutils:gold - Build ld.gold linker
+sys-devel/binutils:multitarget - Adds support to binutils for cross compiling (does not work with gas)
+sys-devel/binutils:plugins - Enable plugin support in tools
+sys-devel/gcc:clang - Add patches to allow lld to be used as the linker
+sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
+sys-devel/gcc:go - Build the GCC Go language frontend.
+sys-devel/gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
+sys-devel/gcc:jit - Enable libgccjit so other applications can embed gcc for Just-In-Time compilation. This will slow down the compiler a bit as it forces all of the toolchain to be shared libs.
+sys-devel/gcc:libssp - Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
+sys-devel/gcc:mpx - Enable support for Intel Memory Protection Extensions (MPX)
+sys-devel/gcc:objc - Build support for the Objective C code language
+sys-devel/gcc:objc++ - Build support for the Objective C++ language
+sys-devel/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
+sys-devel/gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
+sys-devel/gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
+sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
+sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
+sys-devel/gcc:systemtap - enable systemtap static probe points
+sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
+sys-fs/ntfs3g:acl - POSIX ACL support
+sys-fs/ntfs3g:crypto - Enable crypto related code and utilities (ntfsdecrypt)
+sys-fs/ntfs3g:device-default-io-ops - Install default IO ops
+sys-fs/ntfs3g:external-fuse - Use sys-fs/fuse library instead of internal one. Must be disabled for unprivileged mounting to work.
+sys-fs/ntfs3g:extras - Enable extra ntfsprogs utilities
+sys-fs/ntfs3g:hd - Use Windows compliant disk geometry, requires libhd from sys-apps/hwinfo
+sys-fs/ntfs3g:ldscript - Use ldscript instead of .so symlink
+sys-fs/ntfs3g:library - Install libntfs-3g
+sys-fs/ntfs3g:mount-helper - Install mount helper
+sys-fs/ntfs3g:mtab - Use /etc/mtab
+sys-fs/ntfs3g:ntfs-3g - Enable the ntfs-3g FUSE driver
+sys-fs/ntfs3g:ntfsprogs - Include internal version of ntfsprogs utilities
+sys-fs/ntfs3g:pedantic - Enable compiler's pedantic mode
+sys-fs/ntfs3g:quarantined - Install quarantined (non functional) ntfsprogs utilities
+sys-fs/ntfs3g:really-static - Create fully static binaries
+sys-fs/ntfs3g:uuid - Generate DCE compliant UUIDs, requires sys-libs/libuuid
+sys-fs/ntfs3g:xattr - Enable system extended attributes mappings
+sys-kernel/gentoo-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
+sys-kernel/gentoo-sources:long-arg - enable longer commandline arguments
+sys-kernel/pf-sources:long-arg - enable longer commandline arguments
+sys-libs/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
+sys-libs/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
+sys-libs/glibc:crypt - build and install libcrypt and crypt.h
+sys-libs/glibc:debug - When USE=hardened, allow fortify/stack violations to dump core (SIGABRT) and not kill self (SIGKILL)
+sys-libs/glibc:gd - build memusage and memusagestat tools
+sys-libs/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
+sys-libs/glibc:nscd - Build, and enable support for, the Name Service Cache Daemon
+sys-libs/glibc:rpc - Enable obsolete RPC/NIS layers
+sys-libs/glibc:ssp - protect stack of glibc internals
+sys-libs/glibc:static-pie - Enable static PIE support (runtime files for -static-pie gcc option).
+sys-libs/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
+sys-libs/glibc:systemtap - enable systemtap static probe points
+sys-process/htop:cgroup - Enable cgroup support
+sys-process/htop:delayacct - Delay accounting
+sys-process/htop:hwloc - enable sys-apps/hwloc support for CPU affinity
+sys-process/htop:linux-affinity - Enable Linux sched_setaffinity() and sched_getaffinity() for affinity support, disables hwloc
+sys-process/htop:openvz - Enable openvz support
+sys-process/htop:taskstats - Enable per-task IO Stats (taskstats kernel support required)
+sys-process/htop:vserver - Enable vserver support
+sys-process/lsof:rpc - support looking up RPC service info
+virtual/cblas:eselect-ldso - Enable runtime library switching by eselect and ld.so.
+virtual/linux-sources:firmware - Install linux kernel firmware
+virtual/linux-sources:gentoo-patches - use the official gentoo patchset
+virtual/linux-sources:gentoo-sources - use the official gentoo kernel sources
+virtual/linux-sources:pf-sources - use the pf kernel sources
+virtual/mime-types:gentoo - Install official mime-types
+virtual/mime-types:mailcap - Install mailcap mime-types, these are used in arch linux
+virtual/wine:d3d9 - Enable Ixit's Gallium Nine Patchset
+virtual/wine:proton - use steam's proton to provide the wine requirement
+virtual/wine:staging - Enable Wine-Staging's Patchset
+www-client/firefox:bindist - Disable official Firefox branding (icons, name) which are not binary-redistributable according to upstream.
+www-client/firefox:clang - Build with clang instead of gcc see https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Firefox_With_Clang_On_Linux for more info
+www-client/firefox:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
+www-client/firefox:egl - Enable EGL as the GL provider (unsupported).
+www-client/firefox:eme-free - Disable EME (DRM plugin) cabability at build time
+www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
+www-client/firefox:kde - Use OpenSUSE patchset to build in support for native Plasma Desktop file dialog via kde-misc/kmozillahelper.
+www-client/firefox:screenshot - Allow to disable screenshot extension in global profile
+www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
+www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled.
+www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
+www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
+www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
+www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
+www-plugins/freshplayerplugin:v4l - Use libv4l2 for colorspace conversion
+x11-terms/kitty:imagemagick - Support displaying images in the terminal with icat

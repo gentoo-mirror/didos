@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Generally mirror libc but use direct syscalls
+EAPI=6
+HOMEPAGE=https://chromium.googlesource.com/linux-syscall-support
+INHERIT=git-r3
+KEYWORDS=amd64
+LICENSE=Google-TOS
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=3e6a87fcb8bc51fd1d16f8e43073c80a
