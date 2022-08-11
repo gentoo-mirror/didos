@@ -9,6 +9,7 @@ app-emulation/mars-mips 4.5: MARS is a lightweight IDE for programming in MIPS a
 app-emulation/packettracer 7.3.1: Cisco's packet tracer
 app-emulation/snapd 2.34 2.34.3 2.38: Service and tools for management of snap packages
 app-eselect/eselect-lcdfilter 1 2: Eselect module to choose Freetype infinality-enhanced LCD filtering settings
+app-misc/ansilove 4.0.3-r1: ANSi/ASCII art to PNG converter in C
 app-misc/ansiweather 1.14.0: Weather in your terminal, with ANSI colors and Unicode symbols
 app-misc/bucklespring 1.4.0: Nostalgia bucklespring keyboard (IBM Model-M) sound emulator
 app-misc/diff-so-fancy 1.2.6: Good-lookin' diffs. Actually... nah... The best-lookin' diffs.
@@ -39,6 +40,7 @@ dev-libs/gmp 6.2.1: Library for arbitrary-precision arithmetic on different type
 dev-libs/intel-common 19.0.4.243: Common libraries and utilities needed for Intel compilers and libraries
 dev-libs/libcloudproviders 0.3.0: Cloudproviders integration API
 dev-libs/libcroco 0.6.13: Generic Cascading Style Sheet (CSS) parsing and manipulation toolkit
+dev-libs/libgit2 0.27.9-r1: Linkable library implementation of Git
 dev-libs/libmaxminddb 1.0.4: C library for reading MaxMind DB files (GeoIP2)
 dev-libs/libxml2 2.9.9: Version 2 of the library to manipulate XML files
 dev-libs/uthash 2.1.0: C macros for hash tables and more
@@ -103,6 +105,7 @@ dev-util/strace 4.20: Useful diagnostic, instructional, and debugging tool
 dev-util/the_silver_searcher 2.1.0: A code-searching tool similar to ack, but faster
 dev-util/webstorm 2018.2.8 2019.1.4 2019.2.4: WebStorm is an IDE for complex client-/server-side JavaScript development
 dev-util/yuck 0.2.4: Your Umbrella Command Kit, a command line option parser for C
+dev-util/zealsearch 0.0_p20181210-r1: Zeal integration plugin for KTextEditor (KDevelop, Kate, KWrite, ...)
 dev-vcs/mercurial 5.5: Scalable distributed SCM
 games-simulation/firestorm-bin 5.1.7-r2 6.0.2-r1 6.3.2-r1: An open source metaverse viewer
 gnome-base/gnome-control-center 3.34.2-r1: GNOME's main interface to configure various aspects of the desktop
@@ -127,7 +130,7 @@ media-libs/x264 0.0.20190214: A free library for encoding X264/AVC streams
 media-sound/shine 3.1.1: Super fast fixed-point MP3 encoder
 media-sound/spek 9999: Analyse your audio files by showing their spectrogram
 media-video/ffmpeg 4.3 4.3.1: Complete solution to record/convert/stream audio and video. Includes libavcodec
-media-video/obs-studio 21.0.2-r1 26.1.1: Software for Recording and Streaming Live Video Content
+media-video/obs-studio 26.1.1: Software for Recording and Streaming Live Video Content
 media-video/vlc 3.0.6-r2 3.0.6-r3 3.0.7.1 3.0.8 3.0.10-r1: Media player and framework with support for most multimedia files and streaming
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-libs/libpsl 0.21.0: C library for the Public Suffix List
@@ -175,7 +178,7 @@ virtual/mime-types 0: Provides /etc/mime.types file
 virtual/wine 0-r7: Virtual for Wine that supports multiple variants and slotting
 www-client/firefox 70.0.1 72.0.2: Firefox Web Browser
 www-client/google-chrome 78.0.3904.70: The web browser from Google
-www-plugins/freshplayerplugin 0.3.9-r1 0.3.9-r2 0.3.9-r3 0.3.9-r4: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
+www-plugins/freshplayerplugin 0.3.9-r4: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
 x11-libs/kcolorpicker 0.1.4: Qt based Color Picker with popup menu
 x11-libs/kimageannotator 0.3.1 0.3.2: Tool for annotating images
 x11-libs/libfm-qt 0.14.1-r2: Qt port of libfm, a library providing components to build desktop file managers
