@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=!sys-apps/snap-confine sys-libs/libseccomp[static-libs] sys-apps/apparmor dev-libs/glib sys-fs/squashfs-tools:*
 SLOT=0
 SRC_URI=https://github.com/snapcore/snapd/releases/download/2.34/snapd_2.34.vendor.tar.xz -> snapd-2.34.tar.xz
-_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	linux-info	bbfa385d6907d7948d49a5e107bd654d	systemd	2736b403a83f194b59b767f3b344c2c1
+_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	linux-info	bbfa385d6907d7948d49a5e107bd654d	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=3077a1949015d47a06f0c166f6224ddd
