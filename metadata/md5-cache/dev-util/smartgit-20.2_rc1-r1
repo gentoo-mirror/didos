@@ -11,5 +11,5 @@ RDEPEND=arm64? ( virtual/jre )
 RESTRICT=mirror strip
 SLOT=20.2
 SRC_URI=https://www.syntevo.com/downloads/smartgit/smartgit-linux-20_2-rc-1.tar.gz -> smartgit-20.2_rc1.tar.gz
-_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
 _md5_=2771a91e1a87c0bf99fbafc7f2f6e6a4
