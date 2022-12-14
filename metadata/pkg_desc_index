@@ -31,8 +31,6 @@ dev-java/icu4j 64.2: A set of Java libraries providing Unicode and Globalization
 dev-java/jansi-native 1.5-r1: Native JNI component for dev-java/jansi
 dev-lang/ifc 19.0.4.243: Intel FORTRAN Compiler
 dev-lang/python 2.7.18-r100 2.7.18-r101 2.7.18-r102 3.7.7-r2 3.7.8-r2 3.7.9 3.7.9-r1 3.7.9-r2: An interpreted, interactive, object-oriented programming language
-dev-lang/rust 1.34.2 1.34.2-r1: Systems programming language from Mozilla
-dev-lang/spidermonkey 60.5.2_p0-r4: Stand-alone JavaScript C++ library
 dev-libs/atk 2.35.1: GTK+ & GNOME Accessibility Toolkit
 dev-libs/fribidi 1.0.9: A free implementation of the unicode bidirectional algorithm
 dev-libs/glib 2.65.0-r1 2.67.0: The GLib library of C routines
@@ -45,47 +43,26 @@ dev-libs/libmaxminddb 1.0.4: C library for reading MaxMind DB files (GeoIP2)
 dev-libs/libxml2 2.9.9: Version 2 of the library to manipulate XML files
 dev-libs/properties-cpp 0.0.1_p20140730-r1: A very simple convenience library for handling properties and signals in C++11
 dev-libs/uthash 2.1.0: C macros for hash tables and more
-dev-libs/zziplib 0.13.69 0.13.69-r1: Lightweight library for extracting data from files archived in a single zip file
 dev-nodejs/uglify-es 3.3.9: A JavaScript parser, mangler/compressor and beautifier toolkit for ES6+
 dev-php/phar-builder-bin 0.2.7: Create Phar of Composer based PHP application
 dev-php/phpstorm 2018.2.7 2019.1.4 2019.2.4: PhpStorm is a commercial, cross-platform IDE for PHP
 dev-php/psysh-bin 0.9.6: REPL for PHP
 dev-python/PyGithub 1.43.8: Python library to access the Github API v3
-dev-python/backcall 0.1.0_p20171231: Backwards compatible callback APIs
-dev-python/bitstring 3.1.5: Python module for creation and analysis of binary data
-dev-python/cffi 1.11.4: Foreign Function Interface for Python calling C code
-dev-python/cloudflare 2.1.0: Python wrapper for the Cloudflare Client API v4
 dev-python/docker-py 2.7.0 3.7.3 4.0.2: Python client for Docker
 dev-python/fire 0.2.1: Library for automatically generating CLIs from absolutely any Python object
-dev-python/fusepy 2.0.4: Simple ctypes python bindings for FUSE
-dev-python/gipc 0.6.0: Child process management and IPC in the context of gevent
 dev-python/github3 1.3.0: Wrapper around the GitHub API (v3)
 dev-python/gitlab 1.10.0: Python wrapper for the GitLab API
-dev-python/html 1.16: Simple, elegant HTML, XHTML and XML generation
 dev-python/importlab 0.5.1: Library that automatically infers dependencies for Python files
 dev-python/jwcrypto 0.6.0: Implementation of JWK,JWS,JWE specifications using python-cryptography
-dev-python/kconfiglib 3.1.0: Flexible Python Kconfig parser and library
 dev-python/m2crypto 0.35.1: A Python crypto and SSL toolkit
 dev-python/mako 1.1.3: A Python templating language
 dev-python/networkx 2.3: Creation, manipulation, and study of complex networks
 dev-python/numpy 1.16.5-r1 1.16.5-r2: Fast array and numerical python library
-dev-python/posix-spawn 9999: Python posix_spawn bindings with cffi
-dev-python/posix_ipc 1.0.0: POSIX IPC primitives (semaphores, shared memory and message queues) for Python
-dev-python/progressbar2 3.35.2: Progress bar for Python 2 and Python 3
 dev-python/prompt_toolkit 1.0.16 2.0.9: Library for building powerful interactive command lines in Python
-dev-python/pyGPG 0.2-r1: A python interface wrapper for gnupg's gpg command
 dev-python/pycharm 2018.2.8 2019.1.4 2019.2.4: PyCharm is a Python IDE for professional developers
 dev-python/pycharm-community 2018.2.8 2019.1.4 2019.2.4: PyCharm is a Python IDE for professional developers
-dev-python/pycurl 7.43.0.2: Python interface to libcurl
-dev-python/pyopenssl 17.5.0: Python interface to the OpenSSL library
-dev-python/python-utils 2.3.0: Convenient utilities not included with the standard Python install
-dev-python/subprocess-keepalive 0.3.2: subprocess-keepalive
-dev-python/terminaltables 2.1.0 3.1.0: Generate simple tables in terminals from a nested list of strings
-dev-python/travis-ci-utils 0.11.0: travis-ci-utils
-dev-python/typing 3.6.4: Type Hints for Python
 dev-python/wcwidth 0.1.7: Library that measures the width of unicode strings rendered to a terminal
 dev-python/websocket-client 0.56.0: WebSocket client for python with hybi13 support
-dev-python/xkcdpass 1.16.5: Flexible and scriptable password generator, inspired by XKCD 936
 dev-tex/tex4ht 20090611_p1038-r8: Converts (La)TeX to (X)HTML, XML and OO.org
 dev-util/amalgamate 0.4.0: Tool for creating an amalgamation from C and C++ sources
 dev-util/aseman-qt-tools 1.9999: Set of tools to support cross platform Qt projects by Aseman
@@ -97,8 +74,6 @@ dev-util/glib-utils 2.67.0: Build utilities for GLib using projects
 dev-util/gtk-doc 1.32-r3: GTK+ Documentation Generator
 dev-util/idea-community 2020.1.0.201.6668.121: A complete toolset for web, mobile and enterprise development
 dev-util/libqtelegram-generator 0_p20160919: Generates API part of libqtelegram automatically
-dev-util/licen 0.0.0_p20150324: Licence file generator. Yet another lice, but implemented with Jinja2 and docopt
-dev-util/meld 3.21.0 3.21.0-r1 3.21.0-r2: A graphical diff and merge tool
 dev-util/premake 5.0.0_alpha12: Powerfully simple build configuration
 dev-util/rider 2018.2.3 2019.1.3 2019.2.3 2020.2.2 2020.2.2-r1 2020.2.2-r2: Cross-platform .NET IDE based on the IntelliJ platform and ReSharper
 dev-util/scons 3.1.1 3.1.1-r1 3.1.2 3.1.2-r1: Extensible Python-based build utility
@@ -178,7 +153,6 @@ sys-libs/pinktrace 0.9.3: ptrace() easy wrapper library
 sys-process/htop 2.2.0: Interactive text-mode process viewer for Unix systems aiming to be a better top
 sys-process/lsof 4.91: Lists open files for running Unix processes
 sys-process/nmon 16j: Nigel's performance MONitor for CPU, memory, network, disks, etc...
-sys-process/ps_mem 3.6: Utility to accurately report the in core memory usage for a program
 virtual/cblas 3.8: Virtual for BLAS C implementation
 virtual/linux-sources 0 5.3: Virtual for Linux kernel sources
 virtual/mime-types 0: Provides /etc/mime.types file
