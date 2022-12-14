@@ -29,10 +29,6 @@ dev-lang/rust:rustfmt - Install rustfmt component
 dev-lang/rust:system-llvm - Use system llvm
 dev-lang/rust:thumbv7neon - Install arm optimisation
 dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
-dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
-dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of programs that link to spidermonkey -- note this will often crash software on regular end-user systems
-dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of bundled -- note, only takes effect when icu flag is enabled
-dev-lang/spidermonkey:threadsafe - Build a threadsafe version of spidermonkey
 dev-libs/glib:dbus - Enable dependencies required by glib libraries using dbus service to manage settings saving
 dev-libs/glib:fam - Use fam for file system monitoring
 dev-libs/glib:iconv_gnu - iconv_gnu
