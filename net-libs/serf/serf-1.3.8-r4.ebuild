@@ -3,9 +3,8 @@
 
 EAPI="7"
 
+PYTHON_COMPAT=(python3_{6..11})
 inherit eutils python-any-r1 scons-utils toolchain-funcs flag-o-matic
-
- PYTHON_COMPAT=(python3_{6..11})
 
 DESCRIPTION="HTTP client library"
 HOMEPAGE="https://serf.apache.org/"
