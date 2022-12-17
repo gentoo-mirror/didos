@@ -49,8 +49,14 @@ dev-php/phar-builder-bin 0.2.7: Create Phar of Composer based PHP application
 dev-php/phpstorm 2018.2.7 2019.1.4 2019.2.4: PhpStorm is a commercial, cross-platform IDE for PHP
 dev-php/psysh-bin 0.9.6: REPL for PHP
 dev-python/PyGithub 1.43.8: Python library to access the Github API v3
+dev-python/backcall 0.1.0_p20171231-r1: Backwards compatible callback APIs
+dev-python/bitstring 3.1.5-r1: Python module for creation and analysis of binary data
+dev-python/cffi 1.11.4-r1: Foreign Function Interface for Python calling C code
+dev-python/cloudflare 2.1.0-r1: Python wrapper for the Cloudflare Client API v4
 dev-python/docker-py 2.7.0 3.7.3 4.0.2: Python client for Docker
 dev-python/fire 0.2.1: Library for automatically generating CLIs from absolutely any Python object
+dev-python/fusepy 2.0.4-r1: Simple ctypes python bindings for FUSE
+dev-python/gipc 0.6.0-r1: Child process management and IPC in the context of gevent
 dev-python/github3 1.3.0: Wrapper around the GitHub API (v3)
 dev-python/gitlab 1.10.0: Python wrapper for the GitLab API
 dev-python/importlab 0.5.1: Library that automatically infers dependencies for Python files
