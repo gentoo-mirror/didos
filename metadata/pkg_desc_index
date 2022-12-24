@@ -31,7 +31,6 @@ dev-java/icu4j 64.2: A set of Java libraries providing Unicode and Globalization
 dev-java/jansi-native 1.5-r1: Native JNI component for dev-java/jansi
 dev-lang/ifc 19.0.4.243: Intel FORTRAN Compiler
 dev-lang/python 2.7.18-r100 2.7.18-r101 2.7.18-r102 3.7.7-r2 3.7.8-r2 3.7.9 3.7.9-r1 3.7.9-r2: An interpreted, interactive, object-oriented programming language
-dev-lang/rust 1.34.2-r2: Systems programming language from Mozilla
 dev-libs/atk 2.35.1: GTK+ & GNOME Accessibility Toolkit
 dev-libs/fribidi 1.0.9: A free implementation of the unicode bidirectional algorithm
 dev-libs/glib 2.65.0-r1 2.67.0: The GLib library of C routines
@@ -107,7 +106,6 @@ gnome-base/gvfs 1.42.0 1.42.2 1.42.2-r1 1.44.1: Virtual filesystem implementatio
 gnome-base/librsvg 2.45.6 2.45.8 2.45.90 2.46.3 2.49.3 2.50.2: Scalable Vector Graphics (SVG) rendering library
 kde-plasma/plasma-meta 5.14.5 5.15.5 5.15.5-r1 5.15.5-r2: Merge this to pull in all Plasma 5 packages
 lxqt-base/lxqt-meta 0.15.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
-mail-client/thunderbird 60.6.1-r1: Thunderbird Mail Client, with SUSE patchset, to provide better KDE integration
 media-fonts/liberation-fonts 2.1.0_pre20190923-r2: A Helvetica/Times/Courier/Arial replacement TrueType font, courtesy of Red Hat
 media-gfx/flameshot 0.6.0 0.6.0-r1 0.8.5: Powerful yet simple to use screenshot software
 media-gfx/fontforge 20200314 20200314-r1 20200320 20200815: postscript font editor and converter
@@ -172,7 +170,6 @@ virtual/cblas 3.8: Virtual for BLAS C implementation
 virtual/linux-sources 0 5.3: Virtual for Linux kernel sources
 virtual/mime-types 0: Provides /etc/mime.types file
 virtual/wine 0-r7: Virtual for Wine that supports multiple variants and slotting
-www-client/firefox 70.0.1 72.0.2: Firefox Web Browser
 www-client/google-chrome 78.0.3904.70: The web browser from Google
 www-plugins/freshplayerplugin 0.3.9-r5: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
 x11-libs/kcolorpicker 0.1.4: Qt based Color Picker with popup menu
