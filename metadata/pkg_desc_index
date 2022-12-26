@@ -176,6 +176,7 @@ sys-libs/pinktrace 0.9.3: ptrace() easy wrapper library
 sys-process/htop 2.2.0: Interactive text-mode process viewer for Unix systems aiming to be a better top
 sys-process/lsof 4.91: Lists open files for running Unix processes
 sys-process/nmon 16j: Nigel's performance MONitor for CPU, memory, network, disks, etc...
+sys-process/ps_mem 3.6-r1: Utility to accurately report the in core memory usage for a program
 virtual/cblas 3.8: Virtual for BLAS C implementation
 virtual/linux-sources 0 5.3: Virtual for Linux kernel sources
 virtual/mime-types 0: Provides /etc/mime.types file
