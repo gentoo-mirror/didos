@@ -1,5 +1,4 @@
 app-admin/eselect 1.4.15 1.4.17: Gentoo's multi-purpose configuration and management tool
-app-admin/system-config-printer 1.5.11-r2: Graphical user interface for CUPS administration
 app-arch/lzop 1.04: Utility for fast (even real-time) compression/decompression
 app-arch/zstd 1.4.7: zstd fast compression library
 app-crypt/gcr 3.34.0-r1 3.34.0-r2 3.36.0: Libraries for cryptographic UIs and accessing PKCS#11 modules
@@ -20,18 +19,15 @@ app-misc/radeontop 1.2: Utility to view Radeon GPU utilization
 app-misc/tmux 2.6: Terminal multiplexer
 app-office/dia 0.97.3-r1: Diagram/flowchart creation program
 app-text/asciidoc 9.0.0_rc1 9.0.0_rc1-r1: A plain text human readable/writable document format
-app-text/docbook-xsl-stylesheets 1.79.2-r1: XSL Stylesheets for Docbook
 dev-cpp/cairomm 1.15.4-r1: C++ bindings for the Cairo vector graphics library
 dev-cpp/glibmm 2.63.1: C++ interface for glib2
 dev-db/sqlite 3.31.1 3.32.3-r1 3.33.0 3.34.0: SQL database engine
-dev-dotnet/libgdiplus 6.0.2: Library for using System.Drawing with Mono
 dev-java/ant-core 1.10.5-r2 1.10.7: Java-based build tool similar to 'make' that uses XML configuration files
 dev-java/hawtjni-runtime 1.10-r1: A JNI code generator based on the generator used by the Eclipse SWT project
 dev-java/icu4j 64.2: A set of Java libraries providing Unicode and Globalization support
 dev-java/jansi-native 1.5-r1: Native JNI component for dev-java/jansi
 dev-lang/ifc 19.0.4.243: Intel FORTRAN Compiler
 dev-lang/python 2.7.18-r100 2.7.18-r101 2.7.18-r102 3.7.7-r2 3.7.8-r2 3.7.9 3.7.9-r1 3.7.9-r2: An interpreted, interactive, object-oriented programming language
-dev-lang/rust 1.34.2-r3: Systems programming language from Mozilla
 dev-libs/atk 2.35.1: GTK+ & GNOME Accessibility Toolkit
 dev-libs/fribidi 1.0.9: A free implementation of the unicode bidirectional algorithm
 dev-libs/glib 2.65.0-r1 2.67.0: The GLib library of C routines
@@ -41,7 +37,6 @@ dev-libs/libcloudproviders 0.3.0: Cloudproviders integration API
 dev-libs/libcroco 0.6.13: Generic Cascading Style Sheet (CSS) parsing and manipulation toolkit
 dev-libs/libgit2 0.27.9-r1: Linkable library implementation of Git
 dev-libs/libmaxminddb 1.0.4: C library for reading MaxMind DB files (GeoIP2)
-dev-libs/libxml2 2.9.9: Version 2 of the library to manipulate XML files
 dev-libs/properties-cpp 0.0.1_p20140730-r1: A very simple convenience library for handling properties and signals in C++11
 dev-libs/uthash 2.1.0: C macros for hash tables and more
 dev-nodejs/uglify-es 3.3.9: A JavaScript parser, mangler/compressor and beautifier toolkit for ES6+
@@ -92,7 +87,6 @@ dev-util/clion 2018.2.7 2019.1.4 2019.2.5 2020.2.4: A complete toolset for C and
 dev-util/criterion 2.3.2-r1: Cross-platform C and C++ unit testing framework for the 21th century
 dev-util/gdbus-codegen 2.67.0: GDBus code and documentation generator
 dev-util/glib-utils 2.67.0: Build utilities for GLib using projects
-dev-util/gtk-doc 1.32-r3: GTK+ Documentation Generator
 dev-util/idea-community 2020.1.0.201.6668.121: A complete toolset for web, mobile and enterprise development
 dev-util/libqtelegram-generator 0_p20160919: Generates API part of libqtelegram automatically
 dev-util/licen 0.0.0_p20150324-r1: Licence file generator. Yet another lice, but implemented with Jinja2 and docopt
@@ -116,7 +110,6 @@ gnome-base/gvfs 1.42.0 1.42.2 1.42.2-r1 1.44.1: Virtual filesystem implementatio
 gnome-base/librsvg 2.45.6 2.45.8 2.45.90 2.46.3 2.49.3 2.50.2: Scalable Vector Graphics (SVG) rendering library
 kde-plasma/plasma-meta 5.14.5 5.15.5 5.15.5-r1 5.15.5-r2: Merge this to pull in all Plasma 5 packages
 lxqt-base/lxqt-meta 0.15.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
-mail-client/thunderbird 60.6.1-r2: Thunderbird Mail Client, with SUSE patchset, to provide better KDE integration
 media-fonts/liberation-fonts 2.1.0_pre20190923-r2: A Helvetica/Times/Courier/Arial replacement TrueType font, courtesy of Red Hat
 media-gfx/flameshot 0.6.0 0.6.0-r1 0.8.5: Powerful yet simple to use screenshot software
 media-gfx/fontforge 20200314 20200314-r1 20200320 20200815: postscript font editor and converter
@@ -182,7 +175,6 @@ virtual/cblas 3.8: Virtual for BLAS C implementation
 virtual/linux-sources 0 5.3: Virtual for Linux kernel sources
 virtual/mime-types 0: Provides /etc/mime.types file
 virtual/wine 0-r7: Virtual for Wine that supports multiple variants and slotting
-www-client/firefox 70.0.1-r1 72.0.2-r1: Firefox Web Browser
 www-client/google-chrome 78.0.3904.70: The web browser from Google
 www-plugins/freshplayerplugin 0.3.9-r5: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
 x11-libs/kcolorpicker 0.1.4: Qt based Color Picker with popup menu
