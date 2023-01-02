@@ -107,7 +107,6 @@ games-simulation/firestorm-bin 5.1.7-r2 6.0.2-r1 6.3.2-r1: An open source metave
 gnome-base/gnome-control-center 3.34.2-r1: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gsettings-desktop-schemas 3.34.0-r1 3.38.0_p20200908: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.42.0 1.42.2 1.42.2-r1 1.44.1: Virtual filesystem implementation for GIO
-gnome-base/librsvg 2.45.6 2.45.8 2.45.90 2.46.3 2.49.3 2.50.2: Scalable Vector Graphics (SVG) rendering library
 kde-plasma/plasma-meta 5.14.5 5.15.5 5.15.5-r1 5.15.5-r2: Merge this to pull in all Plasma 5 packages
 lxqt-base/lxqt-meta 0.15.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
 media-fonts/liberation-fonts 2.1.0_pre20190923-r2: A Helvetica/Times/Courier/Arial replacement TrueType font, courtesy of Red Hat
