@@ -1,8 +1,9 @@
 app-admin/eselect 1.4.15 1.4.17: Gentoo's multi-purpose configuration and management tool
+app-admin/system-config-printer 1.5.11-r3: Graphical user interface for CUPS administration
 app-arch/lzop 1.04: Utility for fast (even real-time) compression/decompression
 app-arch/zstd 1.4.7: zstd fast compression library
-app-crypt/gcr 3.34.0-r1 3.34.0-r2 3.36.0: Libraries for cryptographic UIs and accessing PKCS#11 modules
-app-crypt/libsecret 0.20.2 0.20.4 0.20.4-r1: GObject library for accessing the freedesktop.org Secret Service API
+app-crypt/gcr 3.34.0-r3 3.36.0: Libraries for cryptographic UIs and accessing PKCS#11 modules
+app-crypt/libsecret 0.20.2-r1 0.20.4 0.20.4-r1: GObject library for accessing the freedesktop.org Secret Service API
 app-crypt/seahorse 3.32.2-r1: Manage your passwords and encryption keys
 app-emulation/mars-mips 4.5: MARS is a lightweight IDE for programming in MIPS assembly language
 app-emulation/packettracer 7.3.1: Cisco's packet tracer
@@ -19,6 +20,7 @@ app-misc/radeontop 1.2: Utility to view Radeon GPU utilization
 app-misc/tmux 2.6: Terminal multiplexer
 app-office/dia 0.97.3-r1: Diagram/flowchart creation program
 app-text/asciidoc 9.0.0_rc1 9.0.0_rc1-r1: A plain text human readable/writable document format
+app-text/docbook-xsl-stylesheets 1.79.2-r2: XSL Stylesheets for Docbook
 dev-cpp/cairomm 1.15.4-r1: C++ bindings for the Cairo vector graphics library
 dev-cpp/glibmm 2.63.1: C++ interface for glib2
 dev-db/sqlite 3.31.1 3.32.3-r1 3.33.0 3.34.0: SQL database engine
@@ -28,6 +30,7 @@ dev-java/icu4j 64.2: A set of Java libraries providing Unicode and Globalization
 dev-java/jansi-native 1.5-r1: Native JNI component for dev-java/jansi
 dev-lang/ifc 19.0.4.243: Intel FORTRAN Compiler
 dev-lang/python 2.7.18-r100 2.7.18-r101 2.7.18-r102 3.7.7-r2 3.7.8-r2 3.7.9 3.7.9-r1 3.7.9-r2: An interpreted, interactive, object-oriented programming language
+dev-lang/rust 1.34.2-r3: Systems programming language from Mozilla
 dev-libs/atk 2.35.1: GTK+ & GNOME Accessibility Toolkit
 dev-libs/fribidi 1.0.9: A free implementation of the unicode bidirectional algorithm
 dev-libs/glib 2.65.0-r1 2.67.0: The GLib library of C routines
@@ -87,6 +90,7 @@ dev-util/clion 2018.2.7 2019.1.4 2019.2.5 2020.2.4: A complete toolset for C and
 dev-util/criterion 2.3.2-r1: Cross-platform C and C++ unit testing framework for the 21th century
 dev-util/gdbus-codegen 2.67.0: GDBus code and documentation generator
 dev-util/glib-utils 2.67.0: Build utilities for GLib using projects
+dev-util/gtk-doc 1.32-r4: GTK+ Documentation Generator
 dev-util/idea-community 2020.1.0.201.6668.121: A complete toolset for web, mobile and enterprise development
 dev-util/libqtelegram-generator 0_p20160919: Generates API part of libqtelegram automatically
 dev-util/licen 0.0.0_p20150324-r1: Licence file generator. Yet another lice, but implemented with Jinja2 and docopt
@@ -107,8 +111,10 @@ games-simulation/firestorm-bin 5.1.7-r2 6.0.2-r1 6.3.2-r1: An open source metave
 gnome-base/gnome-control-center 3.34.2-r1: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gsettings-desktop-schemas 3.34.0-r1 3.38.0_p20200908: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.42.0 1.42.2 1.42.2-r1 1.44.1: Virtual filesystem implementation for GIO
+gnome-base/librsvg 2.45.6-r1 2.45.8-r1 2.45.90-r1 2.46.3-r1 2.49.3-r1 2.50.2-r1: Scalable Vector Graphics (SVG) rendering library
 kde-plasma/plasma-meta 5.14.5 5.15.5 5.15.5-r1 5.15.5-r2: Merge this to pull in all Plasma 5 packages
 lxqt-base/lxqt-meta 0.15.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
+mail-client/thunderbird 60.6.1-r3: Thunderbird Mail Client, with SUSE patchset, to provide better KDE integration
 media-fonts/liberation-fonts 2.1.0_pre20190923-r2: A Helvetica/Times/Courier/Arial replacement TrueType font, courtesy of Red Hat
 media-gfx/flameshot 0.6.0 0.6.0-r1 0.8.5: Powerful yet simple to use screenshot software
 media-gfx/fontforge 20200314 20200314-r1 20200320 20200815: postscript font editor and converter

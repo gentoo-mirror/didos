@@ -54,36 +54,6 @@ dev-libs/libgit2:sha1_mbedtls - mbedTLS SHA1 backend
 dev-libs/libgit2:sha1_openssl - OpenSSL SHA1 backend
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
-dev-libs/libxml2:c14n - Canonicalization support
-dev-libs/libxml2:catalog - Catalog suppor
-dev-libs/libxml2:debug - debugging module
-dev-libs/libxml2:docbook - Docbook SGML support
-dev-libs/libxml2:fexceptions - GCC flag -fexceptions for C++ exceptions
-dev-libs/libxml2:ftp - FTP support
-dev-libs/libxml2:history - history support to xmllint shell
-dev-libs/libxml2:html - HTML support
-dev-libs/libxml2:http - HTTP support
-dev-libs/libxml2:iso8859x - ISO8859X support if no iconv
-dev-libs/libxml2:legacy - deprecated APIs for compatibility
-dev-libs/libxml2:mem_debug - memory debugging module
-dev-libs/libxml2:modules - dynamic modules support
-dev-libs/libxml2:output - serialization support
-dev-libs/libxml2:pattern - xmlPattern selection interface
-dev-libs/libxml2:push - PUSH parser interfaces
-dev-libs/libxml2:python - build Python bindings
-dev-libs/libxml2:reader - xmlReader parsing interface
-dev-libs/libxml2:regexps - Regular Expressions support
-dev-libs/libxml2:run_debug - Runtime debugging module
-dev-libs/libxml2:sax1 - Older SAX1 interface
-dev-libs/libxml2:schemas - Relax-NG and Schemas support
-dev-libs/libxml2:schematron - Schematron support
-dev-libs/libxml2:thread-alloc - per-thread memory
-dev-libs/libxml2:tree - DOM like tree manipulation APIs
-dev-libs/libxml2:valid - DTD validation support
-dev-libs/libxml2:writer - xmlWriter saving interface
-dev-libs/libxml2:xinclude - XInclude support
-dev-libs/libxml2:xpath - XPATH support
-dev-libs/libxml2:xptr - XPointer support
 dev-python/docker-py:ssh - Enable connecting to the dDocker engine via SSH connection
 dev-python/gitlab:man - Build and install manpages (requires sphinx)
 dev-python/pycurl:ssl_gnutls - ssl_gnutls
