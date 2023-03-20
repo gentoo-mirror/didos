@@ -48,7 +48,7 @@ dev-php/psysh-bin 0.9.6: REPL for PHP
 dev-python/PyGithub 1.43.8: Python library to access the Github API v3
 dev-python/backcall 0.1.0_p20171231-r1: Backwards compatible callback APIs
 dev-python/bitstring 3.1.5-r1: Python module for creation and analysis of binary data
-dev-python/cffi 1.11.4-r1: Foreign Function Interface for Python calling C code
+dev-python/cffi 1.11.4-r2: Foreign Function Interface for Python calling C code
 dev-python/cloudflare 2.1.0-r1: Python wrapper for the Cloudflare Client API v4
 dev-python/docker-py 2.7.0 3.7.3 4.0.2: Python client for Docker
 dev-python/fire 0.2.1: Library for automatically generating CLIs from absolutely any Python object
