@@ -1,5 +1,5 @@
 app-admin/eselect 1.4.15 1.4.17: Gentoo's multi-purpose configuration and management tool
-app-admin/system-config-printer 1.5.11-r3: Graphical user interface for CUPS administration
+app-admin/system-config-printer 1.5.11-r4: Graphical user interface for CUPS administration
 app-arch/lzop 1.04: Utility for fast (even real-time) compression/decompression
 app-arch/zstd 1.4.7: zstd fast compression library
 app-crypt/gcr 3.34.0-r4 3.36.0-r1: Libraries for cryptographic UIs and accessing PKCS#11 modules
