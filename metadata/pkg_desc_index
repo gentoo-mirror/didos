@@ -19,7 +19,6 @@ app-misc/mime-types-mailcap 2.1.49_p20200504: Provides /etc/mime.types file
 app-misc/radeontop 1.2: Utility to view Radeon GPU utilization
 app-misc/tmux 2.6: Terminal multiplexer
 app-office/dia 0.97.3-r1: Diagram/flowchart creation program
-app-text/asciidoc 9.0.0_rc1-r2: A plain text human readable/writable document format
 app-text/docbook-xsl-stylesheets 1.79.2-r2: XSL Stylesheets for Docbook
 dev-cpp/cairomm 1.15.4-r1: C++ bindings for the Cairo vector graphics library
 dev-cpp/glibmm 2.63.1: C++ interface for glib2

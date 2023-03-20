@@ -9,7 +9,6 @@ app-misc/radeontop:amdgpu - amdgpu VRAM size and usage reporting (requires CONFI
 app-misc/radeontop:xcb - Allow to run unprivileged in Xorg
 app-misc/tmux:utempter - libutempter support - tmux will use utmp(5)
 app-misc/tmux:utf8proc - Use utf8proc for unicode character processing
-app-text/asciidoc:highlight - Enable source code highlighting
 app-text/docbook-xsl-stylesheets:fo - fo
 app-text/docbook-xsl-stylesheets:images - images
 app-text/docbook-xsl-stylesheets:params - params
