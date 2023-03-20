@@ -9,6 +9,6 @@ LICENSE=BSD
 RDEPEND=>=app-text/build-docbook-catalog-1.1 ruby? ( || ( ) virtual/rubygems )
 RESTRICT=test
 SLOT=0
-SRC_URI=mirror://sourceforge/docbook/docbook-xsl-1.79.2.tar.bz2
+SRC_URI=https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-1.79.2}.tar.bz2
 _eclasses_=ruby-utils	2412b1152083f1e866ae6df229d51d30	ruby-single	b9b5d136d97bf37058132e4231da02fa
-_md5_=e27ef77c13653cfb3f7e0b31f3df71ec
+_md5_=578bc9fbc2cd4ba843ca49d34ecdaab6
