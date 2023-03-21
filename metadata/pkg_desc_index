@@ -111,7 +111,7 @@ gnome-base/gvfs 1.42.0 1.42.2 1.42.2-r1 1.44.1: Virtual filesystem implementatio
 gnome-base/librsvg 2.45.6-r1 2.45.8-r1 2.45.90-r1 2.46.3-r1 2.49.3-r1 2.50.2-r1: Scalable Vector Graphics (SVG) rendering library
 kde-plasma/plasma-meta 5.14.5 5.15.5 5.15.5-r1 5.15.5-r2: Merge this to pull in all Plasma 5 packages
 lxqt-base/lxqt-meta 0.15.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
-media-fonts/liberation-fonts 2.1.0_pre20190923-r2: A Helvetica/Times/Courier/Arial replacement TrueType font, courtesy of Red Hat
+media-fonts/liberation-fonts 2.1.0_pre20190923-r3: A Helvetica/Times/Courier/Arial replacement TrueType font, courtesy of Red Hat
 media-gfx/flameshot 0.6.0 0.6.0-r1 0.8.5: Powerful yet simple to use screenshot software
 media-gfx/fontforge 20200314-r2 20200320-r1 20200815: postscript font editor and converter
 media-gfx/imagemagick 7.0.8.68-r1 7.0.9.5 7.0.9.8 7.0.9.14 7.0.10.9: A collection of tools and libraries for many image formats
