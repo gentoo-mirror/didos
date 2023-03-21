@@ -131,7 +131,7 @@ media-video/ffmpeg 4.3 4.3.1: Complete solution to record/convert/stream audio a
 media-video/obs-studio 26.1.1: Software for Recording and Streaming Live Video Content
 media-video/vlc 3.0.6-r2 3.0.6-r3 3.0.7.1 3.0.8 3.0.10-r1: Media player and framework with support for most multimedia files and streaming
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-libs/libpsl 0.21.0: C library for the Public Suffix List
+net-libs/libpsl 0.21.0-r1: C library for the Public Suffix List
 net-libs/libqtelegram-ae 9999: Fork of libqtelegram by Aseman Team with support for Windows and MacOSX
 net-libs/libtorrent-rasterbar 1.2.6-r1: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/nodejs 12.16.1 14.4.0 15.4.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
