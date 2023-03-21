@@ -135,7 +135,7 @@ net-libs/libpsl 0.21.0-r1: C library for the Public Suffix List
 net-libs/libqtelegram-ae 9999: Fork of libqtelegram by Aseman Team with support for Windows and MacOSX
 net-libs/libtorrent-rasterbar 1.2.6-r1: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/nodejs 12.16.1 14.4.0 15.4.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
-net-libs/serf 1.3.8-r4: HTTP client library
+net-libs/serf 1.3.8-r5: HTTP client library
 net-libs/telegram-qt 9999: Telegram binding for Qt
 net-misc/curl 7.71.1 7.74.0-r2: A Client that groks URLs
 net-misc/iputils 20190709: Network monitoring tools including ping and ping6
