@@ -10,10 +10,11 @@ GH_RN="github:jgehrcke"
 ## python-*.eclass:
 PYTHON_COMPAT=( py{py3,thon{2_7,3_{5..7}}} )
 
-inherit distutils-r1 pypi
+inherit git-hosting
+inherit distutils-r1
 
 DESCRIPTION="Child process management and IPC in the context of gevent"
-HOMEPAGE="https://gehrcke.de/gipc"
+HOMEPAGE="https://gehrcke.de/gipc ${GH_HOMEPAGE}"
 LICENSE="MIT"
 
 SLOT="0"
