@@ -80,7 +80,6 @@ dev-python/typing 3.6.4-r1: Type Hints for Python
 dev-python/wcwidth 0.1.7: Library that measures the width of unicode strings rendered to a terminal
 dev-python/websocket-client 0.56.0: WebSocket client for python with hybi13 support
 dev-python/xkcdpass 1.16.5-r1: Flexible and scriptable password generator, inspired by XKCD 936
-dev-tex/tex4ht 20090611_p1038-r8: Converts (La)TeX to (X)HTML, XML and OO.org
 dev-util/amalgamate 0.4.0: Tool for creating an amalgamation from C and C++ sources
 dev-util/aseman-qt-tools 1.9999: Set of tools to support cross platform Qt projects by Aseman
 dev-util/clinfo 2.2.17.10.25: Tool to display info about the system's OpenCL capabilities
