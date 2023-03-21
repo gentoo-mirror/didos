@@ -411,7 +411,6 @@ net-misc/iputils:rdisc-server - Build and install `rdisc-server`
 net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
 net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
 net-misc/iputils:traceroute6 - Build and install traceroute6 -- tool for tracing network paths (see also net-analyzer/traceroute)
-net-vpn/nordvpn:nordlynx - Enable NordLynx support using the WireGuard protocol
 sci-libs/mkl:int64 - Build the 64 bits integer library
 sys-apps/hwloc:gl - Enable GL display device discovery (NVCtrl)
 sys-apps/hwloc:numa - Add support for numa memory allocation

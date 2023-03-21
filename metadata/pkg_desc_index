@@ -141,7 +141,6 @@ net-misc/curl 7.71.1 7.74.0-r2: A Client that groks URLs
 net-misc/iputils 20190709: Network monitoring tools including ping and ping6
 net-misc/rclone-bin 1.41: rsync for cloud storage
 net-misc/resty 2.2_p20151218: Little command line REST client that you can use in pipelines (bash or zsh)
-net-vpn/nordvpn 3.7.4: NordVPN CLI tool for Linux
 sci-libs/mkl 19.0.4.243: Intel Math Kernel Library: linear algebra, fft, math functions
 sys-apps/file 5.37-r2 5.39-r2 5.39-r3 5.39-r4: identify a file's format by scanning binary data for patterns
 sys-apps/fsearch 9999: Fast file search utility for GNU/Linux based on GTK+3
