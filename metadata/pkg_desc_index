@@ -88,7 +88,7 @@ dev-util/criterion 2.3.2-r1: Cross-platform C and C++ unit testing framework for
 dev-util/gdbus-codegen 2.67.0: GDBus code and documentation generator
 dev-util/glib-utils 2.67.0: Build utilities for GLib using projects
 dev-util/gtk-doc 1.32-r4: GTK+ Documentation Generator
-dev-util/idea-community 2020.1.0.201.6668.121: A complete toolset for web, mobile and enterprise development
+dev-util/idea-community 2020.1.0.201.6668.121-r1: A complete toolset for web, mobile and enterprise development
 dev-util/libqtelegram-generator 0_p20160919: Generates API part of libqtelegram automatically
 dev-util/licen 0.0.0_p20150324-r1: Licence file generator. Yet another lice, but implemented with Jinja2 and docopt
 dev-util/meld 3.21.0-r4: A graphical diff and merge tool
