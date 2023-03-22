@@ -163,7 +163,7 @@ sys-fs/ntfs3g 2017.3.23: Open source read/write NTFS driver for FUSE
 sys-fs/qdirstat 1.4: GUI app to show where your disk space has gone and to help you to clean it up
 sys-kernel/gentoo-sources 4.16.0-r1 5.2.5-r2: Full sources including the Gentoo patchset for the 5.2 kernel tree
 sys-kernel/linux-headers 5.10-r1: Linux system headers
-sys-kernel/pf-sources 5.3_p4-r1: Linux kernel fork that includes the pf-kernel patchset and Gentoo's genpatches
+sys-kernel/pf-sources 5.3_p4-r2: Linux kernel fork that includes the pf-kernel patchset and Gentoo's genpatches
 sys-libs/glibc 2.29-r8 2.30-r9 2.31-r7: GNU libc C library
 sys-libs/linux-syscall-support 20200415: Generally mirror libc but use direct syscalls
 sys-libs/pinktrace 0.9.3: ptrace() easy wrapper library
