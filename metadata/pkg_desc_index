@@ -161,7 +161,7 @@ sys-fs/fuse 2.9.7-r1 3.2.3-r1: An interface for filesystems implemented in users
 sys-fs/fuse-common 3.2.3-r1: Common files for multiple slots of sys-fs/fuse
 sys-fs/ntfs3g 2017.3.23: Open source read/write NTFS driver for FUSE
 sys-fs/qdirstat 1.4: GUI app to show where your disk space has gone and to help you to clean it up
-sys-kernel/gentoo-sources 4.16.0-r1 5.2.5-r1: Full sources including the Gentoo patchset for the 5.2 kernel tree
+sys-kernel/gentoo-sources 4.16.0-r1 5.2.5-r2: Full sources including the Gentoo patchset for the 5.2 kernel tree
 sys-kernel/linux-headers 5.10-r1: Linux system headers
 sys-kernel/pf-sources 5.3_p4-r1: Linux kernel fork that includes the pf-kernel patchset and Gentoo's genpatches
 sys-libs/glibc 2.29-r8 2.30-r9 2.31-r7: GNU libc C library
