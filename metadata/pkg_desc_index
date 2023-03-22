@@ -178,7 +178,7 @@ virtual/wine 0-r7: Virtual for Wine that supports multiple variants and slotting
 www-plugins/freshplayerplugin 0.3.9-r5: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
 x11-libs/kcolorpicker 0.1.4: Qt based Color Picker with popup menu
 x11-libs/kimageannotator 0.3.1 0.3.2: Tool for annotating images
-x11-libs/libfm-qt 0.14.1-r2: Qt port of libfm, a library providing components to build desktop file managers
+x11-libs/libfm-qt 0.14.1-r3: Qt port of libfm, a library providing components to build desktop file managers
 x11-misc/fvwm-xdg-menu 20140427: xdg application menu with full support for the additional categories for fvwm and other xdg compliant desktops
 x11-misc/ksnip 1.7.2: A Qt based cross-platform screenshot tool that provides many annotation features for your screenshots
 x11-misc/trayion 1.4-r1: FreeDesktop trayicon area for Ion3
