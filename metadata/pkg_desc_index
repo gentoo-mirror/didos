@@ -175,6 +175,7 @@ virtual/cblas 3.8: Virtual for BLAS C implementation
 virtual/linux-sources 0 5.3: Virtual for Linux kernel sources
 virtual/mime-types 0: Provides /etc/mime.types file
 virtual/wine 0-r7: Virtual for Wine that supports multiple variants and slotting
+www-client/vimb 2.11-r1: a fast, lightweight, vim-like browser based on webkit
 www-plugins/freshplayerplugin 0.3.9-r5: PPAPI-host NPAPI-plugin adapter for flashplayer in npapi based browsers
 x11-libs/kcolorpicker 0.1.4: Qt based Color Picker with popup menu
 x11-libs/kimageannotator 0.3.1 0.3.2: Tool for annotating images
