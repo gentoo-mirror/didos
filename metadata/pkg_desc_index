@@ -22,7 +22,7 @@ app-text/docbook-xsl-stylesheets 1.79.2-r3: XSL Stylesheets for Docbook
 dev-cpp/cairomm 1.15.4-r1: C++ bindings for the Cairo vector graphics library
 dev-cpp/glibmm 2.63.1: C++ interface for glib2
 dev-db/sqlite 3.31.1 3.32.3-r1 3.33.0 3.34.0: SQL database engine
-dev-java/ant-core 1.10.5-r2 1.10.7-r1: Java-based build tool similar to 'make' that uses XML configuration files
+dev-java/ant-core 1.10.5-r2 1.10.7-r2: Java-based build tool similar to 'make' that uses XML configuration files
 dev-java/hawtjni-runtime 1.10-r1: A JNI code generator based on the generator used by the Eclipse SWT project
 dev-java/icu4j 64.2: A set of Java libraries providing Unicode and Globalization support
 dev-java/jansi-native 1.5-r2: Native JNI component for dev-java/jansi
@@ -95,17 +95,17 @@ dev-util/the_silver_searcher 2.1.0: A code-searching tool similar to ack, but fa
 dev-util/webstorm 2018.2.8 2019.1.4 2019.2.4: WebStorm is an IDE for complex client-/server-side JavaScript development
 dev-util/yuck 0.2.4: Your Umbrella Command Kit, a command line option parser for C
 dev-util/zealsearch 0.0_p20181210-r1: Zeal integration plugin for KTextEditor (KDevelop, Kate, KWrite, ...)
-games-simulation/firestorm-bin 5.1.7-r2 6.0.2-r1 6.3.2-r1: An open source metaverse viewer
+games-simulation/firestorm-bin 5.1.7-r2 6.0.2-r2 6.3.2-r2: An open source metaverse viewer
 gnome-base/gnome-control-center 3.34.2-r1: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gsettings-desktop-schemas 3.34.0-r1 3.38.0_p20200908: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.42.0 1.42.2 1.42.2-r1 1.44.1: Virtual filesystem implementation for GIO
-gnome-base/librsvg 2.45.6-r1 2.45.8-r1 2.45.90-r1 2.46.3-r1 2.49.3-r1 2.50.2-r1: Scalable Vector Graphics (SVG) rendering library
+gnome-base/librsvg 2.45.6-r2 2.45.8-r2 2.45.90-r2 2.46.3-r2 2.49.3-r1 2.50.2-r1: Scalable Vector Graphics (SVG) rendering library
 kde-plasma/plasma-meta 5.14.5 5.15.5 5.15.5-r1 5.15.5-r2: Merge this to pull in all Plasma 5 packages
 lxqt-base/lxqt-meta 0.15.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
 media-fonts/liberation-fonts 2.1.0_pre20190923-r3: A Helvetica/Times/Courier/Arial replacement TrueType font, courtesy of Red Hat
 media-gfx/flameshot 0.6.0 0.6.0-r1 0.8.5: Powerful yet simple to use screenshot software
 media-gfx/fontforge 20200314-r3 20200320-r2 20200815-r1: postscript font editor and converter
-media-gfx/imagemagick 7.0.8.68-r1 7.0.9.5 7.0.9.8 7.0.9.14 7.0.10.9: A collection of tools and libraries for many image formats
+media-gfx/imagemagick 7.0.8.68-r2 7.0.9.5 7.0.9.8 7.0.9.14 7.0.10.9: A collection of tools and libraries for many image formats
 media-gfx/scour 0.37-r1: Take an SVG file and produce a cleaner and more concise file
 media-gfx/solvespace 3.0_pre20191126-r1: Parametric 2d/3d CAD
 media-libs/flac 1.3.2: Free lossless audio encoder and decoder
