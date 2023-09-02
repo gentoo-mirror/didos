@@ -624,4 +624,3 @@ www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent inste
 www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
 www-plugins/freshplayerplugin:v4l - Use libv4l2 for colorspace conversion
-x11-terms/kitty:imagemagick - Support displaying images in the terminal with icat
