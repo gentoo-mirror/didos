@@ -55,7 +55,6 @@ dev-python/importlab 0.5.1: Library that automatically infers dependencies for P
 dev-python/jwcrypto 0.6.0: Implementation of JWK,JWS,JWE specifications using python-cryptography
 dev-python/kconfiglib 3.1.0-r1: Flexible Python Kconfig parser and library
 dev-python/networkx 2.3: Creation, manipulation, and study of complex networks
-dev-python/numpy 1.16.5-r4: Fast array and numerical python library
 dev-python/posix-spawn 9999: Python posix_spawn bindings with cffi
 dev-python/posix_ipc 1.0.0-r1: POSIX IPC primitives (semaphores, shared memory and message queues) for Python
 dev-python/progressbar2 3.35.2-r1: Progress bar for Python 2 and Python 3
