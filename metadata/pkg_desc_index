@@ -5,6 +5,7 @@ app-arch/zstd 1.4.7: zstd fast compression library
 app-crypt/gcr 3.34.0-r5 3.36.0-r2: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/libsecret 0.20.2-r3 0.20.4-r2: GObject library for accessing the freedesktop.org Secret Service API
 app-crypt/seahorse 3.32.2-r1: Manage your passwords and encryption keys
+app-emulation/mars-mips 4.5-r1: MARS is a lightweight IDE for programming in MIPS assembly language
 app-emulation/packettracer 7.3.1: Cisco's packet tracer
 app-emulation/snapd 2.34 2.34.3 2.38: Service and tools for management of snap packages
 app-eselect/eselect-lcdfilter 1 2: Eselect module to choose Freetype infinality-enhanced LCD filtering settings
@@ -31,12 +32,14 @@ dev-lang/rust 1.34.2-r5: Systems programming language from Mozilla
 dev-libs/atk 2.35.1: GTK+ & GNOME Accessibility Toolkit
 dev-libs/fribidi 1.0.9: A free implementation of the unicode bidirectional algorithm
 dev-libs/glib 2.65.0-r2 2.67.0-r1: The GLib library of C routines
+dev-libs/gmp 6.2.1-r1: Library for arbitrary-precision arithmetic on different type of numbers
 dev-libs/libcloudproviders 0.3.0: Cloudproviders integration API
 dev-libs/libcroco 0.6.13: Generic Cascading Style Sheet (CSS) parsing and manipulation toolkit
 dev-libs/libgit2 0.27.9-r1: Linkable library implementation of Git
 dev-libs/libmaxminddb 1.0.4: C library for reading MaxMind DB files (GeoIP2)
 dev-libs/properties-cpp 0.0.1_p20140730-r1: A very simple convenience library for handling properties and signals in C++11
 dev-libs/uthash 2.1.0: C macros for hash tables and more
+dev-nodejs/uglify-es 3.3.9-r1: A JavaScript parser, mangler/compressor and beautifier toolkit for ES6+
 dev-php/phar-builder-bin 0.2.7: Create Phar of Composer based PHP application
 dev-php/phpstorm 2018.2.7 2019.1.4 2019.2.4: PhpStorm is a commercial, cross-platform IDE for PHP
 dev-php/psysh-bin 0.9.6: REPL for PHP
@@ -114,6 +117,7 @@ media-libs/openal 1.18.2-r1: Software implementation of the OpenAL 3D audio API
 media-libs/x264 0.0.20190214: A free library for encoding X264/AVC streams
 media-sound/shine 3.1.1: Super fast fixed-point MP3 encoder
 media-sound/spek 9999: Analyse your audio files by showing their spectrogram
+media-video/ffmpeg 4.3-r1 4.3.1-r1: Complete solution to record/convert/stream audio and video. Includes libavcodec
 media-video/obs-studio 26.1.1: Software for Recording and Streaming Live Video Content
 media-video/vlc 3.0.6-r2 3.0.6-r3 3.0.7.1 3.0.8 3.0.10-r1: Media player and framework with support for most multimedia files and streaming
 net-im/telegram-cli 9999: Command line interface client for Telegram
@@ -122,6 +126,7 @@ net-libs/libqtelegram-ae 9999: Fork of libqtelegram by Aseman Team with support 
 net-libs/libtorrent-rasterbar 1.2.6-r2: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/nodejs 12.16.1 14.4.0 15.4.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/telegram-qt 9999: Telegram binding for Qt
+net-misc/curl 7.71.1-r1 7.74.0-r3: A Client that groks URLs
 net-misc/iputils 20190709: Network monitoring tools including ping and ping6
 net-misc/rclone-bin 1.41: rsync for cloud storage
 net-misc/resty 2.2_p20151218: Little command line REST client that you can use in pipelines (bash or zsh)
