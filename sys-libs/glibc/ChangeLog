@@ -1,5 +1,5 @@
 *glibc-2.31-r9
-::prototype99	update to eapi 8
+::prototype99	update to eapi 6
 *glibc-2.31-r8
 ::prototype99	add python3_10 support
 *glibc-2.31-r7
@@ -10,7 +10,7 @@ pull in glibc 2.29 improvements
 ::pg_overlay		add python3_9 compatibility
 ::prototype99		remove 9999 specific code
 *glibc-2.30-r11
-::prototype99	update to eapi 8
+::prototype99	update to eapi 6
 *glibc-2.30-r10
 ::prototype99	add python3_10 support
 *glibc-2.30-r9
