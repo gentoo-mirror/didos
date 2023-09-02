@@ -71,11 +71,6 @@ dev-util/clion:system-gdb - Use sys-devel/gdb instead of the bundled copy
 dev-util/clion:system-lldb - Use sys-devel/llvm instead of the bundled copy
 dev-util/criterion:cpp - Support for C++
 dev-util/criterion:theories - Some tool for test-driven development
-dev-util/gtk-doc:glib-doc - add fix for dev-libs/glib[gtk-doc]
-dev-util/gtk-doc:highlight - Enable source code highlighting
-dev-util/gtk-doc:vim - Enable source code highlighting through app-editors/vim
-dev-util/idea-community:jbr11 - Install and use the Java 11 based version of JetBrains Runtime.
-dev-util/idea-community:jbr8 - Install and use the Java 8 based version of JetBrains Runtime.
 dev-util/rider:mono - Include mono, needed for regular .net and guis
 dev-util/smartgit:kernel - up the memory limit to 3072 because the linux kernel really pushes memory limits
 dev-util/spirv-tools:color-terminal - color-terminal
@@ -83,9 +78,6 @@ dev-util/spirv-tools:compressing-codec - compressing-codec
 dev-util/spirv-tools:executables - executables
 dev-util/strace:aio - Enable dev-libs/libaio support for tracing Asynchronous I/O operations
 dev-util/strace:unwind - Enable stack backtraces (-k flag) via sys-libs/libunwind
-dev-vcs/mercurial:chg - Support Mercurial command server client
-dev-vcs/mercurial:gpg - Support signing with GnuPG.
-dev-vcs/mercurial:tk - Install dev-lang/tk for hgk script.
 games-simulation/firestorm-bin:fmod - pull in media-libs/fmod for sound support
 gnome-base/gnome-control-center:colord - Support color management using x11-misc/colord
 gnome-base/gnome-control-center:flickr - Add support for using photos from flickr as desktop background
@@ -624,3 +616,4 @@ www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent inste
 www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
 www-plugins/freshplayerplugin:v4l - Use libv4l2 for colorspace conversion
+x11-terms/kitty:imagemagick - Support displaying images in the terminal with icat
