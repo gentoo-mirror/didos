@@ -41,7 +41,6 @@ dev-libs/glib:trace - Build support for profiling and tracing using dev-util/sys
 dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
 dev-libs/gmp:asm - Enable use of hand optimized assembly routines (faster execution)
 dev-libs/gmp:pic - Force static libraries to be built as PIC to avoid TEXTRELs.
-dev-libs/intel-common:compiler - Install the libraries needed for the icc and ifort compilers
 dev-libs/libgit2:curl - Use net-misc/curl for HTTP support (otherwise, limited built-in implementation will be used)
 dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:https - Secure HTTP support
@@ -403,7 +402,6 @@ net-misc/iputils:rdisc-server - Build and install `rdisc-server`
 net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
 net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
 net-misc/iputils:traceroute6 - Build and install traceroute6 -- tool for tracing network paths (see also net-analyzer/traceroute)
-sci-libs/mkl:int64 - Build the 64 bits integer library
 sys-apps/hwloc:gl - Enable GL display device discovery (NVCtrl)
 sys-apps/hwloc:numa - Add support for numa memory allocation
 sys-apps/hwloc:opencl - Enable OpenCL device discovery (AMD only)
