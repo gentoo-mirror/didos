@@ -39,8 +39,6 @@ dev-libs/glib:mime - Pull in shared MIME database that many glib-based applicati
 dev-libs/glib:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-libs/glib:trace - Build support for profiling and tracing using dev-util/systemtap and dtrace
 dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
-dev-libs/gmp:asm - Enable use of hand optimized assembly routines (faster execution)
-dev-libs/gmp:pic - Force static libraries to be built as PIC to avoid TEXTRELs.
 dev-libs/libgit2:curl - Use net-misc/curl for HTTP support (otherwise, limited built-in implementation will be used)
 dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:https - Secure HTTP support

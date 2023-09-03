@@ -32,7 +32,6 @@ dev-lang/rust 1.34.2-r5: Systems programming language from Mozilla
 dev-libs/atk 2.35.1: GTK+ & GNOME Accessibility Toolkit
 dev-libs/fribidi 1.0.9: A free implementation of the unicode bidirectional algorithm
 dev-libs/glib 2.65.0-r2 2.67.0-r1: The GLib library of C routines
-dev-libs/gmp 6.2.1-r1: Library for arbitrary-precision arithmetic on different type of numbers
 dev-libs/libcloudproviders 0.3.0: Cloudproviders integration API
 dev-libs/libcroco 0.6.13: Generic Cascading Style Sheet (CSS) parsing and manipulation toolkit
 dev-libs/libgit2 0.27.9-r1: Linkable library implementation of Git
