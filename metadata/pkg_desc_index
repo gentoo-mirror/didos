@@ -6,7 +6,6 @@ app-crypt/gcr 3.34.0-r5 3.36.0-r2: Libraries for cryptographic UIs and accessing
 app-crypt/libsecret 0.20.2-r3 0.20.4-r2: GObject library for accessing the freedesktop.org Secret Service API
 app-crypt/seahorse 3.32.2-r1: Manage your passwords and encryption keys
 app-emulation/packettracer 7.3.1: Cisco's packet tracer
-app-emulation/snapd 2.34 2.34.3 2.38: Service and tools for management of snap packages
 app-eselect/eselect-lcdfilter 1 2: Eselect module to choose Freetype infinality-enhanced LCD filtering settings
 app-misc/ansilove 4.0.3-r1: ANSi/ASCII art to PNG converter in C
 app-misc/ansiweather 1.14.0: Weather in your terminal, with ANSI colors and Unicode symbols
@@ -135,13 +134,11 @@ sys-apps/usbtop 0.1-r1: utility that shows an estimated instantaneous bandwidth 
 sys-apps/world 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19: Meta package to pull in packages and scripts to help keep the world file clean
 sys-fs/fuse 2.9.7-r1 3.2.3-r1: An interface for filesystems implemented in userspace
 sys-fs/fuse-common 3.2.3-r1: Common files for multiple slots of sys-fs/fuse
-sys-fs/ntfs3g 2017.3.23: Open source read/write NTFS driver for FUSE
 sys-fs/qdirstat 1.4: GUI app to show where your disk space has gone and to help you to clean it up
 sys-kernel/gentoo-sources 4.16.0-r1 5.2.5-r2: Full sources including the Gentoo patchset for the 5.2 kernel tree
 sys-kernel/linux-headers 5.10-r1: Linux system headers
 sys-libs/linux-syscall-support 20200415: Generally mirror libc but use direct syscalls
 sys-libs/pinktrace 0.9.3-r1: ptrace() easy wrapper library
-sys-process/htop 2.2.0: Interactive text-mode process viewer for Unix systems aiming to be a better top
 sys-process/lsof 4.92.1: Lists open files for running Unix processes
 sys-process/nmon 16j: Nigel's performance MONitor for CPU, memory, network, disks, etc...
 sys-process/ps_mem 3.6-r1: Utility to accurately report the in core memory usage for a program
