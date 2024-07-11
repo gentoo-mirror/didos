@@ -6,7 +6,6 @@ app-crypt/gcr 3.34.0-r5 3.36.0-r2: Libraries for cryptographic UIs and accessing
 app-crypt/libsecret 0.20.2-r3 0.20.4-r2: GObject library for accessing the freedesktop.org Secret Service API
 app-crypt/seahorse 3.32.2-r1: Manage your passwords and encryption keys
 app-emulation/packettracer 7.3.1: Cisco's packet tracer
-app-eselect/eselect-lcdfilter 1 2: Eselect module to choose Freetype infinality-enhanced LCD filtering settings
 app-misc/ansilove 4.0.3-r1: ANSi/ASCII art to PNG converter in C
 app-misc/ansiweather 1.14.0: Weather in your terminal, with ANSI colors and Unicode symbols
 app-misc/bucklespring 1.4.0: Nostalgia bucklespring keyboard (IBM Model-M) sound emulator
@@ -120,7 +119,6 @@ net-misc/iputils 20190709: Network monitoring tools including ping and ping6
 net-misc/rclone-bin 1.41: rsync for cloud storage
 net-misc/resty 2.2_p20151218: Little command line REST client that you can use in pipelines (bash or zsh)
 sys-apps/file 5.37-r2 5.39-r2 5.39-r3 5.39-r4: identify a file's format by scanning binary data for patterns
-sys-apps/fsearch 9999: Fast file search utility for GNU/Linux based on GTK+3
 sys-apps/hdparm 9.56: Utility to change hard drive performance parameters
 sys-apps/hwinfo 21.53: Hardware detection tool used in SuSE Linux
 sys-apps/hwloc 1.11.13 2.0.4: displays the hardware topology in convenient formats
@@ -137,7 +135,6 @@ sys-fs/fuse-common 3.2.3-r1: Common files for multiple slots of sys-fs/fuse
 sys-fs/qdirstat 1.4: GUI app to show where your disk space has gone and to help you to clean it up
 sys-kernel/gentoo-sources 4.16.0-r1 5.2.5-r2: Full sources including the Gentoo patchset for the 5.2 kernel tree
 sys-kernel/linux-headers 5.10-r1: Linux system headers
-sys-libs/linux-syscall-support 20200415: Generally mirror libc but use direct syscalls
 sys-libs/pinktrace 0.9.3-r1: ptrace() easy wrapper library
 sys-process/lsof 4.92.1: Lists open files for running Unix processes
 sys-process/nmon 16j: Nigel's performance MONitor for CPU, memory, network, disks, etc...
