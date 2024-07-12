@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure install prepare test unpack
-DEPEND=>=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3 ogg? ( media-libs/libogg ) app-arch/xz-utils sys-devel/gettext virtual/pkgconfig
+DEPEND=>=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3 ogg? ( media-libs/libogg ) app-arch/xz-utils sys-devel/gettext virtual/pkgconfig
 DESCRIPTION=Free lossless audio encoder and decoder
 EAPI=6
 HOMEPAGE=https://xiph.org/flac/ https://github.com/xiph/flac
@@ -11,5 +11,5 @@ RDEPEND=ogg? ( media-libs/libogg )
 RESTRICT=mirror primaryuri
 SLOT=0
 SRC_URI=https://github.com/xiph/flac/archive/1.3.2.tar.gz -> github--xiph--flac--1.3.2.tar.gz
-_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	git-hosting	84f64c6eacd2317de2a33945695bb4ac	eqawarn	c9847c43b3253a276ae2eabddedab3d7	gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	dc70c1dc473b68317fc4a86f5fbfc57d	ltprune	8178ee51ec70a8551be1bd4318c2ae3c	arrays	67c9a6badc2548df5269b316770bacc6
+_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	git-hosting	84f64c6eacd2317de2a33945695bb4ac	eqawarn	c9847c43b3253a276ae2eabddedab3d7	gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	fb7c3cd829c27448f5a05212de2bf499	ltprune	8178ee51ec70a8551be1bd4318c2ae3c	arrays	67c9a6badc2548df5269b316770bacc6
 _md5_=0b21806a92398e3df1cfbedf6c5576b6
