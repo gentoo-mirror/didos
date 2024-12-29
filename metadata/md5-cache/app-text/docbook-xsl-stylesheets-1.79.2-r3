@@ -10,5 +10,5 @@ RDEPEND=>=app-text/build-docbook-catalog-1.1 ruby? ( || ( ) )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-1.79.2.tar.bz2
-_eclasses_=ruby-utils	8c235870eceb33155907ba2ef7b6592f	ruby-single	d1b60f2dbb45623756c128d02b2d3497
+_eclasses_=ruby-utils	a5d18cde09a96648a4d316ada2786cdb	ruby-single	d1b60f2dbb45623756c128d02b2d3497
 _md5_=8213906fb39e918a9f99fa7a4bddd888
