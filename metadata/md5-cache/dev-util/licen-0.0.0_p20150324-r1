@@ -1,4 +1,4 @@
-BDEPEND=python_single_target_pypy3? ( >=dev-lang/pypy-3.10:=[symlink] ) python_single_target_pypy3? ( >=dev-python/setuptools-69.0.3[python_targets_pypy3(-)] )
+BDEPEND=python_single_target_pypy3? ( dev-lang/pypy:3.10=[symlink] ) python_single_target_pypy3? ( >=dev-python/setuptools-69.0.3[python_targets_pypy3(-)] )
 DEFINED_PHASES=compile configure install prepare setup test unpack
 DESCRIPTION=Licence file generator. Yet another lice, but implemented with Jinja2 and docopt
 EAPI=7
@@ -7,10 +7,10 @@ INHERIT=rindeal git-hosting distutils-r1
 IUSE=+python_single_target_pypy3
 KEYWORDS=~amd64 ~arm ~arm64
 LICENSE=MIT
-RDEPEND=dev-python/docopt:0[%PYTHON_USEDEP-NEEDS-TO-BE-USED-IN-PYTHON_GEN_COND_DEP%] dev-python/jinja:0[%PYTHON_USEDEP-NEEDS-TO-BE-USED-IN-PYTHON_GEN_COND_DEP%] python_single_target_pypy3? ( >=dev-lang/pypy-3.10:=[symlink] )
+RDEPEND=dev-python/docopt:0[%PYTHON_USEDEP-NEEDS-TO-BE-USED-IN-PYTHON_GEN_COND_DEP%] dev-python/jinja:0[%PYTHON_USEDEP-NEEDS-TO-BE-USED-IN-PYTHON_GEN_COND_DEP%] python_single_target_pypy3? ( dev-lang/pypy:3.10=[symlink] )
 REQUIRED_USE=^^ ( python_single_target_pypy3 )
 RESTRICT=mirror primaryuri
 SLOT=0
 SRC_URI=https://github.com/lord63/licen/archive/5969f6b11aa36e7f8da49b5cf81ef8d51415290f.tar.gz -> github--lord63--licen--5969f6b11aa36e7f8da49b5cf81ef8d51415290f.tar.gz
-_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	git-hosting	84f64c6eacd2317de2a33945695bb4ac	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	42c5abe4a656a4993a06a4fc61dbdd12	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	distutils-r1	85ccd3b54a6533fb120ee52b7c76a3df
+_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	git-hosting	84f64c6eacd2317de2a33945695bb4ac	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	b7726144f5af59e186d66746d0f513e5	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	distutils-r1	85ccd3b54a6533fb120ee52b7c76a3df
 _md5_=1f64ba88e7be9c0a89ba85e56ed072cd
