@@ -12,5 +12,5 @@ RDEPEND=!<sys-fs/fuse-2.9.7-r1:0
 RESTRICT=mirror primaryuri test
 SLOT=0
 SRC_URI=https://github.com/libfuse/libfuse/archive/fuse-3.2.3.tar.gz -> github--libfuse--libfuse--fuse-3.2.3.tar.gz
-_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	git-hosting	84f64c6eacd2317de2a33945695bb4ac	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	974462533ec80cd68e5f366ad8a86002	meson	99466844dd8d4fcfb07578a76f5a9922	udev	f3d9a4376ebd22131726a68e1a0a058f	arrays	67c9a6badc2548df5269b316770bacc6
+_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	git-hosting	84f64c6eacd2317de2a33945695bb4ac	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	b6ad054ea5bb201ed2fec9cac7a8d12b	meson	99466844dd8d4fcfb07578a76f5a9922	udev	f3d9a4376ebd22131726a68e1a0a058f	arrays	67c9a6badc2548df5269b316770bacc6
 _md5_=b17b00a2f06974132bf8ef0ee865eaad

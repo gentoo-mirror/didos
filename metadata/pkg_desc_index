@@ -1,25 +1,19 @@
 app-admin/eselect 1.4.15 1.4.17: Gentoo's multi-purpose configuration and management tool
-app-admin/system-config-printer 1.5.11-r4: Graphical user interface for CUPS administration
 app-arch/lzop 1.04: Utility for fast (even real-time) compression/decompression
 app-arch/zstd 1.4.7: zstd fast compression library
-app-crypt/gcr 3.34.0-r5 3.36.0-r2: Libraries for cryptographic UIs and accessing PKCS#11 modules
-app-crypt/libsecret 0.20.2-r3 0.20.4-r2: GObject library for accessing the freedesktop.org Secret Service API
 app-crypt/seahorse 3.32.2-r1: Manage your passwords and encryption keys
 app-emulation/packettracer 7.3.1: Cisco's packet tracer
 app-misc/ansilove 4.0.3-r1: ANSi/ASCII art to PNG converter in C
 app-misc/ansiweather 1.14.0: Weather in your terminal, with ANSI colors and Unicode symbols
 app-misc/diff-so-fancy 1.2.6: Good-lookin' diffs. Actually... nah... The best-lookin' diffs.
-app-misc/icdiff 1.9.4_p20190718: Colourized diff that supports side-by-side diffing
 app-misc/jo 1.2: Web log analyzer using probabilistic data structures
 app-misc/mime-types-mailcap 2.1.49_p20200504: Provides /etc/mime.types file
 app-misc/radeontop 1.2: Utility to view Radeon GPU utilization
 app-text/docbook-xsl-stylesheets 1.79.2-r3: XSL Stylesheets for Docbook
 dev-db/sqlite 3.31.1 3.32.3-r1 3.33.0 3.34.0: SQL database engine
 dev-lang/python 2.7.18-r100 2.7.18-r101 2.7.18-r102 3.7.7-r2 3.7.8-r3 3.7.9 3.7.9-r1 3.7.9-r2: An interpreted, interactive, object-oriented programming language
-dev-lang/rust 1.34.2-r5: Systems programming language from Mozilla
 dev-libs/atk 2.35.1: GTK+ & GNOME Accessibility Toolkit
 dev-libs/fribidi 1.0.9: A free implementation of the unicode bidirectional algorithm
-dev-libs/glib 2.65.0-r2 2.67.0-r1: The GLib library of C routines
 dev-libs/libcloudproviders 0.3.0: Cloudproviders integration API
 dev-libs/libgit2 0.27.9-r1: Linkable library implementation of Git
 dev-libs/libmaxminddb 1.0.4: C library for reading MaxMind DB files (GeoIP2)
@@ -28,51 +22,17 @@ dev-libs/uthash 2.1.0: C macros for hash tables and more
 dev-php/phar-builder-bin 0.2.7: Create Phar of Composer based PHP application
 dev-php/phpstorm 2018.2.7 2019.1.4 2019.2.4: PhpStorm is a commercial, cross-platform IDE for PHP
 dev-php/psysh-bin 0.9.6: REPL for PHP
-dev-python/PyGithub 1.43.8: Python library to access the Github API v3
-dev-python/backcall 0.1.0_p20171231-r1: Backwards compatible callback APIs
-dev-python/bitstring 3.1.5-r1: Python module for creation and analysis of binary data
-dev-python/cffi 1.11.4-r2: Foreign Function Interface for Python calling C code
-dev-python/cloudflare 2.1.0-r1: Python wrapper for the Cloudflare Client API v4
-dev-python/docker-py 2.7.0 3.7.3 4.0.2: Python client for Docker
-dev-python/fire 0.2.1: Library for automatically generating CLIs from absolutely any Python object
-dev-python/fusepy 2.0.4-r1: Simple ctypes python bindings for FUSE
-dev-python/gipc 0.6.0-r2: Child process management and IPC in the context of gevent
-dev-python/github3 1.3.0: Wrapper around the GitHub API (v3)
-dev-python/gitlab 1.10.0: Python wrapper for the GitLab API
-dev-python/importlab 0.5.1: Library that automatically infers dependencies for Python files
-dev-python/jwcrypto 0.6.0: Implementation of JWK,JWS,JWE specifications using python-cryptography
-dev-python/kconfiglib 3.1.0-r1: Flexible Python Kconfig parser and library
-dev-python/networkx 2.3: Creation, manipulation, and study of complex networks
-dev-python/posix-spawn 9999: Python posix_spawn bindings with cffi
-dev-python/progressbar2 3.35.2-r1: Progress bar for Python 2 and Python 3
-dev-python/prompt_toolkit 1.0.16 2.0.9: Library for building powerful interactive command lines in Python
-dev-python/pyGPG 0.2-r2: A python interface wrapper for gnupg's gpg command
 dev-python/pycharm 2018.2.8 2019.1.4 2019.2.4: PyCharm is a Python IDE for professional developers
 dev-python/pycharm-community 2018.2.8 2019.1.4 2019.2.4: PyCharm is a Python IDE for professional developers
-dev-python/pycurl 7.43.0.2-r1: Python interface to libcurl
-dev-python/pyopenssl 17.5.0-r1: Python interface to the OpenSSL library
-dev-python/python-utils 2.3.0-r1: Convenient utilities not included with the standard Python install
-dev-python/terminaltables 2.1.0-r1 3.1.0-r1: Generate simple tables in terminals from a nested list of strings
-dev-python/travis-ci-utils 0.11.0-r1: travis-ci-utils
-dev-python/typing 3.6.4-r1: Type Hints for Python
-dev-python/wcwidth 0.1.7: Library that measures the width of unicode strings rendered to a terminal
-dev-python/websocket-client 0.56.0: WebSocket client for python with hybi13 support
-dev-python/xkcdpass 1.16.5-r1: Flexible and scriptable password generator, inspired by XKCD 936
 dev-util/amalgamate 0.4.0: Tool for creating an amalgamation from C and C++ sources
 dev-util/aseman-qt-tools 1.9999: Set of tools to support cross platform Qt projects by Aseman
 dev-util/clinfo 2.2.17.10.25: Tool to display info about the system's OpenCL capabilities
 dev-util/clion 2018.2.7 2019.1.4 2019.2.5 2020.2.4: A complete toolset for C and C++ development
 dev-util/criterion 2.3.2-r1: Cross-platform C and C++ unit testing framework for the 21th century
-dev-util/gdbus-codegen 2.67.0-r1: GDBus code and documentation generator
-dev-util/glib-utils 2.67.0-r1: Build utilities for GLib using projects
 dev-util/libqtelegram-generator 0_p20160919: Generates API part of libqtelegram automatically
-dev-util/licen 0.0.0_p20150324-r1: Licence file generator. Yet another lice, but implemented with Jinja2 and docopt
-dev-util/meld 3.21.0-r5: A graphical diff and merge tool
 dev-util/rider 2018.2.3 2019.1.3 2019.2.3 2020.2.2 2020.2.2-r1 2020.2.2-r2: Cross-platform .NET IDE based on the IntelliJ platform and ReSharper
-dev-util/scons 3.1.1-r3 3.1.2-r3: Extensible Python-based build utility
 dev-util/smartgit 20.1.6 20.2.6: Git client with support for GitHub Pull Requests+Comments, SVN and Mercurial
 dev-util/spirv-headers 1.3-r1: SPIR-V Registry header files
-dev-util/spirv-tools 2018.2-r1: API and commands for processing SPIR-V modules
 dev-util/webstorm 2018.2.8 2019.1.4 2019.2.4: WebStorm is an IDE for complex client-/server-side JavaScript development
 dev-util/zealsearch 0.0_p20181210-r1: Zeal integration plugin for KTextEditor (KDevelop, Kate, KWrite, ...)
 gnome-base/gnome-control-center 3.34.2-r1: GNOME's main interface to configure various aspects of the desktop
@@ -81,33 +41,21 @@ gnome-base/gvfs 1.42.0 1.42.2 1.42.2-r1 1.44.1: Virtual filesystem implementatio
 gnome-base/librsvg 2.49.3-r1 2.50.2-r1: Scalable Vector Graphics (SVG) rendering library
 kde-plasma/plasma-meta 5.14.5 5.15.5 5.15.5-r1 5.15.5-r2: Merge this to pull in all Plasma 5 packages
 lxqt-base/lxqt-meta 0.15.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
-media-fonts/liberation-fonts 2.1.0_pre20190923-r3: A Helvetica/Times/Courier/Arial replacement TrueType font, courtesy of Red Hat
 media-gfx/flameshot 0.6.0 0.6.0-r1 0.8.5: Powerful yet simple to use screenshot software
-media-gfx/fontforge 20200314-r3 20200320-r2 20200815-r1: postscript font editor and converter
 media-gfx/imagemagick 7.0.9.5 7.0.9.8 7.0.9.14 7.0.10.9: A collection of tools and libraries for many image formats
-media-gfx/scour 0.37-r1: Take an SVG file and produce a cleaner and more concise file
 media-gfx/solvespace 3.0_pre20191126-r1: Parametric 2d/3d CAD
-media-libs/libepoxy 1.5.5-r1: Library for handling OpenGL function pointer management
 media-libs/libplacebo 1.18.0: Reusable library for GPU-accelerated video/image rendering primitives
-media-libs/mesa 20.0.8-r3: OpenGL-like graphic library for Linux
 media-libs/openal 1.18.2-r1: Software implementation of the OpenAL 3D audio API
 media-libs/x264 0.0.20190214: A free library for encoding X264/AVC streams
 media-sound/spek 9999: Analyse your audio files by showing their spectrogram
-media-video/obs-studio 26.1.1: Software for Recording and Streaming Live Video Content
 media-video/vlc 3.0.6-r2 3.0.6-r3 3.0.7.1 3.0.8 3.0.10-r1: Media player and framework with support for most multimedia files and streaming
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-libs/libpsl 0.21.0-r2: C library for the Public Suffix List
 net-libs/libqtelegram-ae 9999: Fork of libqtelegram by Aseman Team with support for Windows and MacOSX
-net-libs/libtorrent-rasterbar 1.2.6-r2: C++ BitTorrent implementation focusing on efficiency and scalability
-net-libs/nodejs 12.16.1 14.4.0 15.4.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/telegram-qt 9999: Telegram binding for Qt
 net-misc/iputils 20190709: Network monitoring tools including ping and ping6
 net-misc/resty 2.2_p20151218: Little command line REST client that you can use in pipelines (bash or zsh)
-sys-apps/file 5.37-r2 5.39-r2 5.39-r3 5.39-r4: identify a file's format by scanning binary data for patterns
 sys-apps/hwinfo 21.53: Hardware detection tool used in SuSE Linux
 sys-apps/hwloc 1.11.13 2.0.4: displays the hardware topology in convenient formats
-sys-apps/kmod 28-r2: library and tools for managing linux kernel modules
-sys-apps/portage 3.0.1 3.0.5 3.0.8 3.0.10-r1 3.0.12: Portage is the package management and distribution system for Gentoo
 sys-apps/progress 0.14: Linux tool to show progress for cp, mv, dd, and virtually any command
 sys-apps/sandbox 2.18-r1: sandbox'd LD_PRELOAD hack
 sys-apps/usbtop 0.1-r1: utility that shows an estimated instantaneous bandwidth on USB buses and devices
@@ -119,7 +67,6 @@ sys-kernel/gentoo-sources 4.16.0-r1 5.2.5-r2: Full sources including the Gentoo 
 sys-kernel/linux-headers 5.10-r1: Linux system headers
 sys-libs/pinktrace 0.9.3-r1: ptrace() easy wrapper library
 sys-process/nmon 16j: Nigel's performance MONitor for CPU, memory, network, disks, etc...
-sys-process/ps_mem 3.6-r1: Utility to accurately report the in core memory usage for a program
 virtual/cblas 3.8: Virtual for BLAS C implementation
 virtual/linux-sources 0 5.3: Virtual for Linux kernel sources
 virtual/mime-types 0: Provides /etc/mime.types file
