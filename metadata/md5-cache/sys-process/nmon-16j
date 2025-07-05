@@ -8,5 +8,5 @@ LICENSE=GPL-3.0-or-later
 RDEPEND=sys-libs/ncurses:0=
 SLOT=0
 SRC_URI=mirror://sourceforge/nmon/lmon16j.c
-_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	help2man	92366b3c202b9e32f40743ede57e38f4	arrays	67c9a6badc2548df5269b316770bacc6
+_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	help2man	92366b3c202b9e32f40743ede57e38f4	arrays	67c9a6badc2548df5269b316770bacc6
 _md5_=1a7a7127c26bd19e777965ff22c7a0a2
