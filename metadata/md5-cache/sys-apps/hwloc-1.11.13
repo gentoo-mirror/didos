@@ -12,5 +12,5 @@ RDEPEND=>=sys-libs/ncurses-5.9-r3:0 cairo? ( >=x11-libs/cairo-1.12.14-r4[X?,svg?
 RESTRICT=mirror primaryuri
 SLOT=0/5
 SRC_URI=https://github.com/open-mpi/hwloc/archive/hwloc-1.11.13.tar.gz -> github--open-mpi--hwloc--hwloc-1.11.13.tar.gz
-_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	git-hosting	84f64c6eacd2317de2a33945695bb4ac	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	cuda	283d0f298f6c196c755a0f8d50daca85	gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	955b29ccd82c1df4755e5f37748d2fa6	arrays	67c9a6badc2548df5269b316770bacc6
+_eclasses_=portage-functions-patched	3a026583a923364e9ea2f9d2ad323c40	rindeal	3d1ea5c0e7a53613d1ba1ca572b222bd	git-hosting	84f64c6eacd2317de2a33945695bb4ac	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	cuda	8b660e223a1695e3884ee4c7dc2c5059	gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	955b29ccd82c1df4755e5f37748d2fa6	arrays	67c9a6badc2548df5269b316770bacc6
 _md5_=74795c52f1acab2d497f0a0271c04170
